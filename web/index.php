@@ -675,10 +675,14 @@
 									<!-- Single Item -->
 									<div class="swiper-slide">
 										<div class="review-single">
-											<h5 class="heading-5"><?php echo $review['name']; ?> \ <?php echo $review['position']; ?></h5>
-											<p>
-												<?php echo $review['content']; ?>
-											</p>
+											<h5 class="heading-5"><?php echo $review['name']; ?></h5>
+											<div>
+												<h6 class="heading-5"><?php echo $review['position']; ?></h6>
+												<p>
+													<?php echo $review['content']; ?>
+												</p>
+											</div>
+
 											<span>
 												คุณภาพการบริการ \
 												<?php
