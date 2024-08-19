@@ -38,6 +38,7 @@ margin-bottom: 40px;
     display: flex;
     flex-direction: row;
     justify-items: center;
+    align-items: center;
 }
 
 .service-single-wpr{

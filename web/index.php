@@ -30,7 +30,7 @@
 											<div class="hero-content-desc">
 												<span class="hero-sub-title">
 													<span class="hero-line"></span>
-													ISO: ใบเบิกทางสู่ความสำเร็จทางธุรกิจ AAAA
+													ISO: ใบเบิกทางสู่ความสำเร็จทางธุรกิจ
 												</span>
 												<h2 class="hero-title">
 													เพราะคุณภาพคือหัวใจ ISO คือคำตอบ
@@ -702,9 +702,9 @@
 
 		<!-- Start Contact us
 		============================================= -->
-			<div class="contact-area de-pt pos-rel">
-				<?php require_once './component/contact_us.php' ?>
-			</div>
+		<div class="contact-area de-pt pos-rel">
+			<?php require_once './component/contact_us.php' ?>
+		</div>
 		<!-- End Contact us -->
 
 		<!-- Start Blog

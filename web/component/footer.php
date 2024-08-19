@@ -79,7 +79,7 @@
 						<img src="<?= rootURL(); ?>assets/img/iso/iso-9001.webp" alt="no image">
 						<img src="<?= rootURL(); ?>assets/img/iso/iso-14001.webp" alt="no image">
 						<img src="<?= rootURL(); ?>assets/img/iso/iso-27001.webp" alt="no image">
-						<img src="<?= rootURL(); ?>assets/img/iso/iso-22000.png" alt="no image">
+						<img src="<?= rootURL(); ?>assets/img/iso/iso-13485.webp" alt="no image">
 						<img src="<?= rootURL(); ?>assets/img/iso/iso-13485.webp" alt="no image">
 						<img src="<?= rootURL(); ?>assets/img/iso/iso-50001.webp" alt="no image">
 						<img src="<?= rootURL(); ?>assets/img/iso/iso-45001.webp" alt="no image">
