@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+#services
+RewriteRule ^iso-service/([0-9]+)/(.*)/$ iso_service.php?id=$1&url=$2 [L]
+RewriteRule ^iso-service/([0-9]+)/(.*)$ /iso-service/$1/$2/ [L]

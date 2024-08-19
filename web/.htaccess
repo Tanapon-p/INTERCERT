@@ -1,0 +1,21 @@
+RewriteEngine On
+
+#404
+RewriteCond %{THE_REQUEST} \s/404\.php\s [NC]
+RewriteRule ^ /404/? [R=301,L]
+RewriteRule ^404/$ /404.php [L]
+
+#services
+RewriteRule ^iso-service/([0-9]+)/(.*)/$ iso_service.php?id=$1&url=$2 [L]
+RewriteRule ^iso-service/([0-9]+)/(.*)$ /iso-service/$1/$2/ [L]
+
+#Article
+RewriteRule ^articles/([0-9]+)/(.*)/$ article.php?id=$1&url=$2 [L]
+RewriteRule ^articles/([0-9]+)/(.*)$ /articles/$1/$2/ [L]
+
+#About Us
+RewriteCond %{THE_REQUEST} \s/about-us\.php\s [NC]
+RewriteRule ^ /about-us/? [R=301,L]
+RewriteRule ^about-us/$ /about-us.php [L]
+
+ErrorDocument 404 /404/
