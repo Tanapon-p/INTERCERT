@@ -70,7 +70,7 @@
   --clr-bg-2: #f6f6f6;
   --clr-bg-3: #eef3f9;
   --clr-def: #ffc000;
-  --clr-def-2: #a8040a;
+  --clr-def-2: #000000;
   --clr-def-3: #1d2027;
   --clr-menu: #ff4a17;
   --clr-white: #fff;
@@ -4313,7 +4313,7 @@ ul.chk {
   justify-content: flex-start;
   justify-items: center;
   padding: 12px;
-  min-height: 110px;
+  min-height: 140px;
 }
 
 .addr-home .addr-box .addr-box-single:nth-child(2) .addr-icon i:not(.fa-line) {
@@ -4338,7 +4338,7 @@ ul.chk {
   text-align: center;
   font-size: 2.4rem;
   display: block;
-  color: var(--clr-white);
+  color: var(--clr-black);
   border-radius: 5px;
   background-color: var(--clr-def);
 }

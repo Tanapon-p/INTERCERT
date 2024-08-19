@@ -48,7 +48,7 @@
 					</div>
 					<div class="navbar-menu-opt">
 						<div class="navbar-brand-tog">
-							<a class="navbar-brand g-nop" href="index.html">
+							<a class="navbar-brand g-nop" href="/">
 								<img src="<?= rootURL(); ?>assets/img/logo/logo-white.png" class="logo-display" alt="thumb">
 								<img src="<?= rootURL(); ?>assets/img/logo/logo.png" class="logo-scrolled" alt="thumb">
 							</a>
@@ -57,7 +57,7 @@
 							</button>
 						</div>
 						<div class="collapse navbar-collapse justify-content-md-between">
-							<a class="navbar-brand nop" href="index.html">
+							<a class="navbar-brand nop" href="/">
 								<img src="<?= rootURL(); ?>assets/img/logo/logo-white.png" class="logo-display" alt="thumb">
 								<img src="<?= rootURL(); ?>assets/img/logo/logo.png" class="logo-scrolled" alt="thumb">
 							</a>

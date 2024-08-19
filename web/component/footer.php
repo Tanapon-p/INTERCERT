@@ -76,14 +76,14 @@
 				</div>
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="footer-gallery cs-gap-2 grid-4">
-						<img src="<?= rootURL(); ?>assets/img/pictures/de-1.jpg" alt="no image">
-						<img src="<?= rootURL(); ?>assets/img/pictures/de-2.jpg" alt="no image">
-						<img src="<?= rootURL(); ?>assets/img/pictures/de-1.jpg" alt="no image">
-						<img src="<?= rootURL(); ?>assets/img/pictures/de-2.jpg" alt="no image">
-						<img src="<?= rootURL(); ?>assets/img/pictures/de-1.jpg" alt="no image">
-						<img src="<?= rootURL(); ?>assets/img/pictures/de-2.jpg" alt="no image">
-						<img src="<?= rootURL(); ?>assets/img/pictures/de-1.jpg" alt="no image">
-						<img src="<?= rootURL(); ?>assets/img/pictures/de-2.jpg" alt="no image">
+						<img src="<?= rootURL(); ?>assets/img/iso/iso-9001.webp" alt="no image">
+						<img src="<?= rootURL(); ?>assets/img/iso/iso-14001.webp" alt="no image">
+						<img src="<?= rootURL(); ?>assets/img/iso/iso-27001.webp" alt="no image">
+						<img src="<?= rootURL(); ?>assets/img/iso/iso-22000.png" alt="no image">
+						<img src="<?= rootURL(); ?>assets/img/iso/iso-13485.webp" alt="no image">
+						<img src="<?= rootURL(); ?>assets/img/iso/iso-50001.webp" alt="no image">
+						<img src="<?= rootURL(); ?>assets/img/iso/iso-45001.webp" alt="no image">
+						<img src="<?= rootURL(); ?>assets/img/iso/iso-39001.webp" alt="no image">
 					</div>
 				</div>
 			</div>

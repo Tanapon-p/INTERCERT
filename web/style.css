@@ -34,7 +34,68 @@
 margin-bottom: 40px;
 }
 
+.contact-content{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
 .service-single-wpr{
     display: flex;
     flex-direction: column;
+}
+
+.addr-box-single-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    margin: 16px 0 ;
+
+}
+
+.addr-box-single-link:hover {
+    text-decoration: none;
+}
+
+.addr-box-single-link:hover .addr-box-single {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+/* เพิ่มเอฟเฟกต์เล็กน้อยสำหรับหัวข้อเมื่อ hover */
+.addr-box-single-link:hover .addr-desc h5 {
+    text-decoration: underline;
+}
+
+.addr-box-single-link:hover .addr-icon {
+    transform: scale(1.1); /* ขยายไอคอนเล็กน้อยเมื่อ hover */
+    transition: transform 0.2s ease;
+}
+
+.addr-box-single {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    transition: all 0.3s ease, transform 0.3s ease;
+}
+
+.addr-box-single-link:hover .addr-box-single {
+    background-color: #f5f5f5;
+    transform: scale(1.07);
+    transition: all 0.3s ease;
+}
+
+.addr-icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.addr-desc h5 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.addr-desc p {
+    color: #6c757d;
 }
