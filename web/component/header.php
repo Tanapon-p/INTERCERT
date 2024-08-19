@@ -4,7 +4,7 @@
     ============================================= -->
 <div class="preloader">
 	<div class="preloader-container">
-		<span class="preloader-text">Bizzar</span>
+		<span class="preloader-text">one stop iso</span>
 		<div class="preloader-animation">
 		</div>
 	</div>
@@ -19,7 +19,7 @@
 			<span class="navbar-bar-shape"></span>
 			<div class="navbar-container">
 				<div class="navbar-extra-logo">
-					<a href="index.html">
+					<a href="/">
 						<img src="<?= rootURL(); ?>assets/img/logo/logo-white.png" class="logo-outside" alt="thumb">
 					</a>
 				</div>
@@ -35,11 +35,11 @@
 									</div>
 									<div class="top-email top-box mr-30">
 										<i class="fa-solid fa-envelope"></i>
-										<span>Onestopiso2565@gmail.com</span>
+										<span>onestopiso2565@gmail.com</span>
 									</div>
 									<div class="top-phone top-box">
 										<i class="fa-solid fa-phone"></i>
-										<span> 064-645-1525 </span>
+										<span> (+66) 64-645-1525 </span>
 									</div>
 								</div>
 							</div>
@@ -80,7 +80,7 @@
 											<li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
 										</ul>
 									</li> -->
-								<li class="nav-item"><a class="nav-link" href="about.html">เกี่ยวกับเรา</a></li>
+								<li class="nav-item"><a class="nav-link" href="about.php">เกี่ยวกับเรา</a></li>
 								<li class="nav-item dropdown fadeup">
 									<a class="nav-link" href="#">มาตรฐาน ISO <i class="ti-plus"></i></a>
 									<ul class="navbar-nav">

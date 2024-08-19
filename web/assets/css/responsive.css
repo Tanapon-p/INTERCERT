@@ -98,6 +98,7 @@
   /*	Review*/
 
   .review-single {
+    min-height: 250px;
     padding: 5rem 3rem;
   }
 
@@ -219,7 +220,7 @@
 
   /*	Service*/
 
-  .service-box-2 .service-desc-2 h5 {
+  .service-box-2 .service-desc-2 h5 .service-subtitle-2{
     font-size: 1.7rem;
   }
 

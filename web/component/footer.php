@@ -10,7 +10,7 @@
 							มาสร้างมาตรฐานระดับโลกด้วยกัน!
 						</h2>
 						<h4 class="heading-4 mb-0">
-							<a href="contact.html">เริ่มต้น ISO วันนี้</a>
+							<a href="contact.html">เริ่มต้นสร้างมาตรฐานระดับโลกได้แล้ววันนี้</a>
 						</h4>
 					</div>
 				</div>
@@ -18,7 +18,7 @@
 					<div class="footer-widget footer-link">
 						<ul class="footer-list">
 							<li>
-								<a href="about.html">
+								<a href="about.php">
 									<i class="fa-solid fa-chevron-right"></i>
 									About Us
 								</a>
@@ -48,7 +48,7 @@
 					<div class="footer-widget footer-link">
 						<ul class="footer-list">
 							<li>
-								<a href="about.html">
+								<a href="about.php">
 									<i class="fa-solid fa-chevron-right"></i>
 									Traning ISO
 								</a>

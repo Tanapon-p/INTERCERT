@@ -90,7 +90,7 @@
 							<img src="<?= rootURL(); ?>assets/img/pictures/about-2-2.jpg" class="about-2-2" alt="no image">
 							<div class="about-exp-yr pos-rel">
 								<div class="about-exp">
-									<h2 class="heading-2">20+</h2>
+									<h2 class="heading-2">15+</h2>
 									<h5 class="heading-5 mb-0">Years Experience</h5>
 								</div>
 								<img src="<?= rootURL(); ?>assets/img/person/person-1.png" alt="no image" class="about-exp-pic">
@@ -129,7 +129,7 @@
 								</p>
 							</div>
 						</div>
-						<a href="about.html" class="btn-1 btn-md btn-border-2">
+						<a href="about.php" class="btn-1 btn-md btn-border-2">
 							ค้นพบเพิ่มเติม
 						</a>
 					</div>
@@ -140,40 +140,7 @@
 
 		<!-- Start Partner
 		============================================= -->
-		<div class="partner-area">
-			<div class="container">
-				<div class="partner-wpr">
-					<div class="row g-5 align-items-center">
-						<div class="col-xl-4">
-							<div class="partner-left">
-								<h3 class="heading-3 mb-20">ผู้นำในทุกอุตสาหกรรมไว้วางใจเรา</h3>
-								<p class="mb-0">
-									ONE STOP ISO ภูมิใจในการให้บริการองค์กรชั้นนำทุกขนาด ตั้งแต่ธุรกิจท้องถิ่นจนถึงบริษัทระดับโลก เรายกระดับมาตรฐานการดำเนินงานสู่ระดับสากลในหลากหลายอุตสาหกรรม
-								</p>
-							</div>
-						</div>
-						<div class="col-xl-8">
-							<div class="partner-right">
-								<div class="ptnr-sldr swiper">
-									<!-- Additional required wrapper -->
-									<div class="swiper-wrapper">
-										<?php
-										require_once './static/partner_data.php';
-										foreach ($partners as $partner) {
-											echo '<div class="swiper-slide">';
-											echo '<img src="' . $partner['img'] . '" class="partner-logo rounded-5" alt="' . $partner['alt'] . '">';
-											echo '</div>';
-										}
-										?>
-									</div>
-									<!-- Pagination -->
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php require_once './component/partner.php' ?>
 		<!-- End Partner -->
 
 		<!-- Start Service ISO Standard
@@ -193,8 +160,8 @@
 					</div>
 					<div class="col-xl-4">
 						<div class="service-botam text-right">
-							<a href="about.html" class="btn-1 btn-md">
-								See More
+							<a href="about.php" class="btn-1 btn-md">
+								ดูเพิ่มเติม
 							</a>
 						</div>
 					</div>
@@ -208,13 +175,12 @@
 					?>
 							<div class="service-box-2">
 								<div class="service-up-2">
-									<div class="service-icon-2">
+									<div class="service-img-2">
 										<img src="<?php echo $service['img_url']; ?>" alt="no image">
-										<!-- <i class="<?php echo $service['icon']; ?>"></i> -->
 									</div>
-									<div class="service-value-2">
+									<!-- <div class="service-value-2">
 										<span><?php echo $service['number']; ?></span>
-									</div>
+									</div> -->
 								</div>
 								<div class="service-desc-2">
 									<div>
@@ -254,14 +220,14 @@
 							Services we provide
 						</span>
 						<h2 class="heading-1">
-							เราให้บริการที่ปรึกษา ISO <br />
-							แบบครบจบในที่เดียว
+							ก้าวข้ามขีดจำกัด สู่มาตรฐาน ISO ระดับโลก<br />
+							ด้วยโซลูชันครบวงจร
 						</h2>
 					</div>
 					<div class="col-xl-4">
 						<div class="service-botam text-right">
-							<a href="about.html" class="btn-1 btn-md">
-								See More
+							<a href="about.php" class="btn-1 btn-md">
+								ดูเพิ่มเติม
 							</a>
 						</div>
 					</div>
@@ -273,8 +239,8 @@
 					?>
 						<div class="service-box-2">
 							<div class="service-up-2 service-up-center">
-								<div class="service-icon-2">
-									<i class="<?php echo $iso_service['img_url']; ?>"></i>
+								<div class="service-img-3">
+									<img src="<?php echo $iso_service['img_url']; ?>" alt="no image">
 								</div>
 							</div>
 							<div class="service-desc-2">
@@ -301,6 +267,7 @@
 
 		<!-- Start Why Choose Us
 		============================================= -->
+
 		<div class="faq-area pos-rel de-padding">
 			<img src="<?= rootURL(); ?>assets/img/shape/shape-11.png" class="shape-11" alt="no image">
 			<div class="container">
@@ -330,27 +297,34 @@
 									Why Choose Us
 								</span>
 								<h2 class="heading-1 mb-30">
-									Provide the guaranteed <br /> quality ideas
+									ก้าวสู่มาตรฐานสากล <br /> อย่างมั่นใจกับ ONE STOP ISO
 								</h2>
 								<p class="mb-30">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore necessitatibus voluptate cumque, optio earum soluta, asperiores. Officia, cupiditate.
+									ไม่ว่าคุณจะเริ่มต้นจากจุดไหน เรามีประสบการณ์และความเชี่ยวชาญที่จะช่วยให้คุณบรรลุเป้าหมายการได้รับการรับรอง ISO อย่างราบรื่นและมีประสิทธิภาพ
 								</p>
 								<ul class="about-opt-list-2">
-									<li><i class="ti-check"></i>Human Resources</li>
-									<li><i class="ti-check"></i>Data Analysis </li>
-									<li><i class="ti-check"></i>Business Intelligence</li>
-									<li><i class="ti-check"></i>Contengency Plan</li>
+									<li><i class="ti-check"></i>รองรับทุกระดับ ไม่ว่ามีพื้นฐานหรือไม่</li>
+									<li><i class="ti-check"></i>ดูแลตลอดกระบวนการรับรอง</li>
+									<li><i class="ti-check"></i>ให้คำปรึกษาพัฒนาระบบอย่างต่อเนื่อง</li>
+									<li><i class="ti-check"></i>รับประกันผลลัพธ์ด้วยทีมผู้เชี่ยวชาญ</li>
 								</ul>
-								<div class="progress-wrapper mt-30 grid-2">
-									<div class="progress-box">
-										<div class="chart" data-percent="73"><span>(73%)</span></div>
-										<h4>Business Solution</h4>
+								<div class="progress-wrapper mt-30">
+									<div class="about-contact-2">
+										<div class="about-cnt-icon">
+											<i class="ti-microphone"></i>
+										</div>
+										<div class="about-cnt-text">
+											<h5 class="heading-5">ก้าวสู่ความสำเร็จด้วยกันได้ตั้งแต่ตอนนี้ !</h5>
+											<p class="mb-0">
+												<a href="tel:9123456789">(+66) 64-645-1525</a>
+											</p>
+										</div>
 									</div>
-									<div class="progress-box">
-										<div class="chart" data-percent="65"><span>(65%)</span></div>
-										<h4>24/7 Support</h4>
-									</div>
+
 								</div>
+								<a href="about.php" class="btn-1 btn-md btn-border-2">
+									ค้นพบเพิ่มเติม
+								</a>
 							</div>
 						</div>
 					</div>
@@ -453,15 +427,15 @@
 					<div class="cta-left">
 						<span class="hero-sub-title wh mb-20">
 							<span class="hero-line"></span>
-							Get Consultation
+							Get ISO Standard Consultation
 						</span>
 						<h2 class="heading-1 mb-0">
-							Building your digital dream <br /> projects with us
+							ปลดล็อกศักยภาพธุรกิจด้วย ISO <br /> เริ่มต้นง่ายๆ กับเรา
 						</h2>
 					</div>
 					<div class="cta-right center-right">
-						<a href="about.html" class="btn-1 btn-white btn-md">
-							See More
+						<a href="about.php" class="btn-1 btn-white btn-md">
+							ดูเพิ่มเติม
 						</a>
 					</div>
 				</div>
@@ -470,51 +444,24 @@
 		<!-- End CTA -->
 
 		<!-- Start Counter
-		============================================= -->
+============================================= -->
 		<div class="counter-area counter-top-minus">
 			<div class="container">
 				<div class="counter-wpr hero-bg" style="background-image: url(assets/img/shape/shape-1.png)">
 					<div class="counter-1 grid-4">
-						<div class="fun-fact">
-							<div class="counter-icon">
-								<i class="flaticon-interview-1"></i>
+						<?php require_once './static/counter_data.php';
+						foreach ($counter_items as $item): ?>
+							<div class="fun-fact">
+								<div class="counter-icon">
+									<i class="<?php echo $item['icon']; ?>"></i>
+								</div>
+								<div class="counter">
+									<div class="timer" data-to="<?php echo $item['value']; ?>" data-speed="<?php echo $item['speed']; ?>"></div>
+									<div class="operator"><?php echo $item['unit']; ?></div>
+								</div>
+								<span class="medium"><?php echo $item['text']; ?></span>
 							</div>
-							<div class="counter">
-								<div class="timer" data-to="98" data-speed="2000"></div>
-								<div class="operator">%</div>
-							</div>
-							<span class="medium">Client Satisfaction</span>
-						</div>
-						<div class="fun-fact">
-							<div class="counter-icon">
-								<i class="flaticon-online-meeting"></i>
-							</div>
-							<div class="counter">
-								<div class="timer" data-to="788" data-speed="2000"></div>
-								<div class="operator">K</div>
-							</div>
-							<span class="medium">Services Provide</span>
-						</div>
-						<div class="fun-fact">
-							<div class="counter-icon">
-								<i class="flaticon-dashboard"></i>
-							</div>
-							<div class="counter">
-								<div class="timer" data-to="96" data-speed="2000"></div>
-								<div class="operator">%</div>
-							</div>
-							<span class="medium">Business Growth</span>
-						</div>
-						<div class="fun-fact">
-							<div class="counter-icon">
-								<i class="flaticon-customer-support"></i>
-							</div>
-							<div class="counter">
-								<div class="timer" data-to="796" data-speed="2000"></div>
-								<div class="operator">+</div>
-							</div>
-							<span class="medium">Quality Team Member</span>
-						</div>
+						<?php endforeach; ?>
 					</div>
 				</div>
 			</div>
@@ -708,7 +655,7 @@
 							<div class="review-left-content pos-rel">
 								<img src="<?= rootURL(); ?>assets/img/pictures/review-side.jpg" alt="no image">
 								<div class="review-left-title-arrow">
-									<h2 class="heading-5">What our client <br /> says</h2>
+									<h2 class="heading-5">ลูกค้าของเรา<br> รู้สึกอย่างไรบ้าง?</h2>
 									<div class="review-slider-ico">
 										<div class="swiper-button-next"></div>
 										<div class="swiper-button-prev"></div>
@@ -721,81 +668,29 @@
 						<div class="reveiw-wpr review-sldr swiper">
 							<!-- Additional required wrapper -->
 							<div class="swiper-wrapper">
-								<!-- Single Item -->
-								<div class="swiper-slide">
-									<div class="review-single">
-										<h5 class="heading-5">Robert Joe Rabio\CEO</h5>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, adipisci, cupiditate. Quisquam architecto pariatur corrupti inventore quasi! Quae alias ipsa, distinctio placeat modi. Soluta, sequi eaque quas, numquam eos atque. Provident itaque aliquid, possimus sed magni libero mollitia deleniti nesciunt!
-										</p>
-										<span>
-											Quality Service \
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-										</span>
+								<?php
+								require_once './static/reviews_data.php';
+								foreach ($reviews as $review) :
+								?>
+									<!-- Single Item -->
+									<div class="swiper-slide">
+										<div class="review-single">
+											<h5 class="heading-5"><?php echo $review['name']; ?> \ <?php echo $review['position']; ?></h5>
+											<p>
+												<?php echo $review['content']; ?>
+											</p>
+											<span>
+												คุณภาพการบริการ \
+												<?php
+												for ($i = 0; $i < $review['rating']; $i++) {
+													echo '<i class="icofont-star"></i>';
+												}
+												?>
+											</span>
+										</div>
 									</div>
-								</div>
-								<!-- End Single Item -->
-
-								<!-- Single Item -->
-								<div class="swiper-slide">
-									<div class="review-single">
-										<h5 class="heading-5">Tamra J. Butler\Businessman</h5>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, adipisci, cupiditate. Quisquam architecto pariatur corrupti inventore quasi! Quae alias ipsa, distinctio placeat modi. Soluta, sequi eaque quas, numquam eos atque. Provident itaque aliquid, possimus sed magni libero mollitia deleniti nesciunt!
-										</p>
-										<span>
-											Quality Service \
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-										</span>
-									</div>
-								</div>
-								<!-- End Single Item -->
-
-								<!-- Single Item -->
-								<div class="swiper-slide">
-									<div class="review-single">
-										<h5 class="heading-5">Vinnie P. Stewart\Co-Founder</h5>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, adipisci, cupiditate. Quisquam architecto pariatur corrupti inventore quasi! Quae alias ipsa, distinctio placeat modi. Soluta, sequi eaque quas, numquam eos atque. Provident itaque aliquid, possimus sed magni libero mollitia deleniti nesciunt!
-										</p>
-										<span>
-											Quality Service \
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-										</span>
-									</div>
-								</div>
-								<!-- End Single Item -->
-
-								<!-- Single Item -->
-								<div class="swiper-slide">
-									<div class="review-single">
-										<h5 class="heading-5">Joyce L. Christiansen\Founder</h5>
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, adipisci, cupiditate. Quisquam architecto pariatur corrupti inventore quasi! Quae alias ipsa, distinctio placeat modi. Soluta, sequi eaque quas, numquam eos atque. Provident itaque aliquid, possimus sed magni libero mollitia deleniti nesciunt!
-										</p>
-										<span>
-											Quality Service \
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-											<i class="icofont-star"></i>
-										</span>
-									</div>
-								</div>
-								<!-- End Single Item -->
+									<!-- End Single Item -->
+								<?php endforeach; ?>
 							</div>
 							<!-- Pagination -->
 						</div>
@@ -807,122 +702,9 @@
 
 		<!-- Start Contact us
 		============================================= -->
-		<div class="contact-area de-pt pos-rel">
-			<img src="<?= rootURL(); ?>assets/img/vector/tiles-shape.png" class="contact-tech-2" alt="no image">
-			<div class="container">
-				<div class="contact-wpr">
-					<div class="row g-5">
-						<div class="col-xl-4">
-							<div class="contact-sdebar">
-								<div class="contact-up-title">
-									<h2 class="heading-1">
-										Get in Touch
-									</h2>
-									<p class="mb-0">
-										Lorem ipsum is simply free text available dolor sit amet, consectetur notted adipisicing.
-									</p>
-								</div>
-								<div class="addr-home">
-									<div class="addr-box">
-										<div class="addr-box-single">
-											<div class="addr-icon">
-												<i class="icofont-google-map"></i>
-											</div>
-											<div class="addr-desc">
-												<h5>Location</h5>
-												<p class="mb-0">
-													22 Baker Street, London, United <br> Kingdom, W1U 3BW
-												</p>
-											</div>
-										</div>
-										<div class="addr-box-single">
-											<div class="addr-icon">
-												<i class="icofont-phone"></i>
-											</div>
-											<div class="addr-desc">
-												<h5>Make a Call</h5>
-												<p class="mb-0">
-													+1-940-394-2948<br>
-													+1-389-385-3807
-												</p>
-											</div>
-										</div>
-										<div class="addr-box-single">
-											<div class="addr-icon">
-												<i class="icofont-email"></i>
-											</div>
-											<div class="addr-desc">
-												<h5>Our Email</h5>
-												<p class="mb-0">
-													info@mdjonymia649.com<br>
-													support@logtra.com
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-8">
-							<div class="contact-home pl-30">
-								<form action="assets/mail/contact.php" method="post" class="overflow-hidden contact-form contact-cnt pos-rel">
-									<div class="contact-form-title mb-30">
-										<h2 class="heading-1">
-											Send us a message
-										</h2>
-									</div>
-									<div class="row">
-										<div class="col-xl-6">
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="text" class="form-control input-style-2" id="name" name="name" placeholder="Your Full Name*">
-													<span class="alert alert-error"></span>
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="email" class="form-control input-style-2" id="email" name="email" placeholder="Your Email Address*">
-													<span class="alert alert-error"></span>
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="text" class="form-control input-style-2" id="phone" name="phone" placeholder="Phone Number">
-													<span class="alert alert-error"></span>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-6">
-											<div class="col-md-12">
-												<textarea class="form-control input-style-2" id="comment" name="comments" placeholder="Your Message..."></textarea>
-												<!-- Alert Message -->
-												<div class="alert-notification">
-													<div id="message" class="alert-msg"></div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="sub-btn d-flex align-items-center justify-content-between">
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-											<label class="form-check-label" for="flexCheckDefault">
-												I agree to the <span>Terms &amp; Conditions</span>
-											</label>
-										</div>
-										<div class="contact-sub-btn">
-											<button type="submit" name="submit" id="submit" class="btn-submit">
-												Send Message
-												<i class="fas fa-chevron-right"></i>
-											</button>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
+			<div class="contact-area de-pt pos-rel">
+				<?php require_once './component/contact_us.php' ?>
 			</div>
-		</div>
 		<!-- End Contact us -->
 
 		<!-- Start Blog

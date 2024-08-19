@@ -2479,7 +2479,7 @@ div[data-bg] {
   display: none;
 }
 .site-breadcrumb .breadcrumb-menu li:hover {
-  color: #d63031;
+  color: #ffc000;
 }
 
 .site-breadcrumb-wpr {
@@ -4304,7 +4304,19 @@ ul.chk {
   border-bottom: 1px solid #d4d4d4;
 }
 
-.addr-home .addr-box .addr-box-single:nth-child(2) .addr-icon i {
+.addr-box-single {
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: flex-start;
+  justify-items: center;
+  padding: 12px;
+  min-height: 110px;
+}
+
+.addr-home .addr-box .addr-box-single:nth-child(2) .addr-icon i:not(.fa-line) {
   background-color: var(--clr-def-2);
 }
 .addr-home .addr-box .addr-box-single:nth-child(3) .addr-icon i {
@@ -4312,7 +4324,7 @@ ul.chk {
 }
 .addr-home .addr-box-single {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 3rem;
   margin-bottom: 3rem;
 }
@@ -4357,6 +4369,15 @@ ul.chk {
 }
 .contact-page .addr-box-single .addr-desc p {
   line-height: 1.5;
+}
+
+.addr-box-single .addr-icon i.fa-line {
+  font-size: 7rem;
+  background-color: transparent !important;
+  color: #00b900; /* สีเขียวของ Line */
+  height: auto;
+  width: auto;
+  line-height: 1;
 }
 
 .contact-us-wpr.contact-page .input-style-2 {
@@ -4818,7 +4839,7 @@ ul.chk {
   background: var(--clr-white);
   display:flex;
   flex-direction: column;
-  
+  align-items: center;
 }
 .service-box-2 .service-up-2 {
   display: flex;
@@ -5468,6 +5489,11 @@ ul.chk {
   padding: 6rem 5rem;
   background: var(--clr-white);
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .review-single h5 {
   font-weight: 500;
