@@ -1,5 +1,6 @@
 <?php require_once "./static/iso_menu.php" ?>
 
+
 <!-- Start PreLoader 
     ============================================= -->
 <div class="preloader">
@@ -84,10 +85,13 @@
 								<li class="nav-item dropdown fadeup">
 									<a class="nav-link" href="#">มาตรฐาน ISO <i class="ti-plus"></i></a>
 									<ul class="navbar-nav">
+
 										<?php
-										foreach ($iso_standards as $standard => $details) {
-											echo "<li class='nav-item'><a class='nav-link' href='#'>$standard</a></li>";
-										}
+										require_once './static/services_data.php';
+										$services_from_index_1 = array_slice($services, 1);
+										foreach ($services_from_index_1 as $service) :
+											echo "<li class='nav-item'><a class='nav-link' href='" . htmlspecialchars($service['link']) . "'>" . htmlspecialchars($service['title']) . "</a></li>";
+										endforeach;
 										?>
 									</ul>
 								</li>
@@ -99,10 +103,10 @@
 											<li class="nav-item"><a class="nav-link" href="single.html">Blog Single</a></li>
 										</ul>
 									</li> -->
-								<li class="nav-item"><a class="nav-link" href="contact.html">ติดต่อเรา</a></li>
+								<li class="nav-item"><a class="nav-link" href="contact.php">ติดต่อเรา</a></li>
 							</ul>
 							<!-- <div class="search-cart nav-profile">
-									<a href="contact.html" class="btn-1 btn-sm">Let's Begin</a>
+									<a href="contact.php" class="btn-1 btn-sm">Let's Begin</a>
 								</div> -->
 						</div>
 					</div>

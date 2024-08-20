@@ -27,7 +27,7 @@
                 <div class="service-box-2">
                     <div class="service-up-2 service-up-center">
                         <div class="service-img-3">
-                            <img src="<?php echo rootURL() . $iso_service['img_url']; ?>" alt="<?php echo $iso_service['title']; ?>">
+                            <img src="<?php echo $iso_service['img_url']; ?>" alt="<?php echo $iso_service['title']; ?>">
                         </div>
                     </div>
                     <div class="service-desc-2">

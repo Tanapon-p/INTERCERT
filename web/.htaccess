@@ -18,4 +18,9 @@ RewriteCond %{THE_REQUEST} \s/about-us\.php\s [NC]
 RewriteRule ^ /about-us/? [R=301,L]
 RewriteRule ^about-us/$ /about-us.php [L]
 
+#Contact Us
+RewriteCond %{THE_REQUEST} \s/contact\.php\s [NC]
+RewriteRule ^ /contact/? [R=301,L]
+RewriteRule ^contact/$ /contact.php [L]
+
 ErrorDocument 404 /404/

@@ -36,7 +36,7 @@
 													เพราะคุณภาพคือหัวใจ ISO คือคำตอบ
 												</h2>
 												<div class="hero-btn">
-													<a href="contact.html" class="btn-5 btn-md btn-white">Contact Us</a>
+													<a href="contact.php" class="btn-5 btn-md btn-white">Contact Us</a>
 												</div>
 											</div>
 										</div>
@@ -63,7 +63,7 @@
 													ISO ไม่ใช่เรื่องยาก แค่เลือกผู้เชี่ยวชาญที่ใช่
 												</h2>
 												<div class="hero-btn">
-													<a href="contact.html" class="btn-5 btn-md btn-white">Contact Us</a>
+													<a href="contact.php" class="btn-5 btn-md btn-white">Contact Us</a>
 												</div>
 											</div>
 										</div>
@@ -505,7 +505,7 @@
 								<li><i class="icofont-check-alt"></i>Shareable Team Libraries</li>
 							</ul>
 							<div class="price-bottom">
-								<a href="contact.html" class="price-btn">
+								<a href="contact.php" class="price-btn">
 									Get Started <i class="icofont-rounded-double-right"></i>
 								</a>
 							</div>
@@ -531,7 +531,7 @@
 								<li><i class="icofont-check-alt"></i>Shareable Team Libraries</li>
 							</ul>
 							<div class="price-bottom">
-								<a href="contact.html" class="price-btn">
+								<a href="contact.php" class="price-btn">
 									Get Started <i class="icofont-rounded-double-right"></i>
 								</a>
 							</div>
@@ -556,7 +556,7 @@
 								<li><i class="icofont-check-alt"></i>Shareable Team Libraries</li>
 							</ul>
 							<div class="price-bottom">
-								<a href="contact.html" class="price-btn">
+								<a href="contact.php" class="price-btn">
 									Get Started <i class="icofont-rounded-double-right"></i>
 								</a>
 							</div>

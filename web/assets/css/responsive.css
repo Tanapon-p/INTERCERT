@@ -113,6 +113,10 @@
   .contact-tech-2 {
     right: -80px;
   }
+
+  .contact-tech-single-page {
+    right: -80px;
+  }
 }
 
 /* Large Device: 1200px. */
@@ -614,6 +618,9 @@
   .contact-tech-2 {
     display: none;
   }
+  .contact-tech-single-page {
+    display: none;
+  }
 
   .contact-home.pl-30 {
     padding-left: 0;
@@ -1047,6 +1054,10 @@
 
   .contact-tech-2 {
     display: none;
+  }
+
+  .contact-area .contact-tech-single-page {
+    display: none !important;
   }
 
   /*	Product*/
@@ -1815,6 +1826,10 @@
 
   .contact-tech-2 {
     display: none;
+  }
+
+  .contact-tech-single-page{
+    display: none !important;
   }
 
   .contact-right {

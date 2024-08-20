@@ -10,7 +10,7 @@
 							มาสร้างมาตรฐานระดับโลกด้วยกัน!
 						</h2>
 						<h4 class="heading-4 mb-0">
-							<a href="contact.html">เริ่มต้นสร้างมาตรฐานระดับโลกได้แล้ววันนี้</a>
+							<a href="contact.php">เริ่มต้นสร้างมาตรฐานระดับโลกได้แล้ววันนี้</a>
 						</h4>
 					</div>
 				</div>
@@ -36,7 +36,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="contact.html">
+								<a href="contact.php">
 									<i class="fa-solid fa-chevron-right"></i>
 									Contact us
 								</a>
