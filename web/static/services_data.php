@@ -103,18 +103,18 @@ $iso_services = [
         'img_url' => rootURL() . 'assets/img/services/training.png',
         'title' => 'Training ISO',
         'description' => 'ยกระดับองค์กรของคุณด้วยการฝึกอบรม ISO จากผู้เชี่ยวชาญ เรามีประสบการณ์มากกว่า 15 ปีในการอบรมมาตรฐานสากลหลากหลายประเภท พร้อมปรับแต่งหลักสูตรให้เหมาะกับธุรกิจของคุณ',
-        'link' => rootURL() . 'traning-service/'
+        'link' => rootURL() . 'services/traning/'
     ],
     [
         'img_url' => rootURL() . 'assets/img/services/consult.png',
         'title' => 'Consult ISO',
         'description' => 'ปรึกษาผู้ชำนาญการด้าน ISO เรามีทีมที่ปรึกษาที่เคยเป็น Auditor มาก่อน พร้อมช่วยคุณวางระบบ แก้ไขปัญหา และเตรียมความพร้อมสู่การรับรองมาตรฐานสากลอย่างมั่นใจ',
-        'link' => '#',
+        'link' => rootURL() . 'services/consult/',
     ],
     [
         'img_url' => rootURL() . 'assets/img/services/audit.png',
         'title' => 'Pre Audit',
         'description' => 'เตรียมพร้อมก่อนการตรวจประเมินจริงด้วยบริการ Pre Audit จากทีมผู้เชี่ยวชาญของเรา ค้นหาจุดบกพร่อง แก้ไขปัญหาล่วงหน้า เพิ่มโอกาสผ่านการรับรองในครั้งแรก',
-        'link' => '#',
+        'link' => rootURL() . 'services/preaudit/',
     ]
 ];

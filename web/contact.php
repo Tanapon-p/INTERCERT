@@ -78,7 +78,7 @@
                                                 </div>
                                             </div>
                                         </a>
-                                        <a href="tel:+66646451525" class="addr-box-single-link">
+                                        <a href="tel:+66636452424" class="addr-box-single-link">
                                             <div class="addr-box-single">
                                                 <div class="addr-icon">
                                                     <i class="icofont-phone"></i>
@@ -86,7 +86,7 @@
                                                 <div class="addr-desc">
                                                     <h5>โทรทันที</h5>
                                                     <p class="mb-0">
-                                                        (+66) 64-645-1525
+                                                        (+66) 63-645-2424
                                                     </p>
                                                 </div>
                                             </div>
@@ -99,7 +99,7 @@
                             <div class="contact-home pl-30">
                                 <div class="addr-home">
                                     <div class="addr-box">
-                                        <a href="mailto:onestopiso2565@gmail.com" class="addr-box-single-link">
+                                        <a href="mailto:Salesonestopiso@gmail.com" class="addr-box-single-link">
                                             <div class="addr-box-single">
                                                 <div class="addr-icon">
                                                     <i class="icofont-email"></i>
@@ -107,7 +107,7 @@
                                                 <div class="addr-desc">
                                                     <h5>Email</h5>
                                                     <p class="mb-0">
-                                                        onestopiso2565@gmail.com
+                                                        Salesonestopiso@gmail.com
                                                     </p>
                                                 </div>
                                             </div>

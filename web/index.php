@@ -30,7 +30,7 @@
 											<div class="hero-content-desc">
 												<span class="hero-sub-title">
 													<span class="hero-line"></span>
-													ISO: ใบเบิกทางสู่ความสำเร็จทางธุรกิจ
+													ISO ใบเบิกทางสู่ความสำเร็จทางธุรกิจ
 												</span>
 												<h2 class="hero-title">
 													เพราะคุณภาพคือหัวใจ ISO คือคำตอบ
@@ -109,27 +109,27 @@
 						</div>
 						<p class="mb-30">
 							เราคือทีมผู้เชี่ยวชาญที่พร้อมยกระดับธุรกิจของคุณสู่มาตรฐานสากล ด้วยประสบการณ์จากการเป็น AUDITOR มากกว่า 15 ปี
-							และความเข้าใจลึกซึ้งในหลากหลายอุตสาหกรรม เราพร้อมเป็นพันธมิตรที่จะอยู่เคียงข้างคุณตั้งแต่เริ่มต้นจนได้รับการรับรอง
-							ISO บริการหลักของเรา
+							และความเข้าใจลึกซึ้งในหลากหลายธุรกิจอุตสาหกรรม เราพร้อมเป็นพันธมิตรที่จะอยู่เคียงข้างคุณตั้งแต่เริ่มต้นจนได้รับการรับรอง
+							ISO คือ บริการหลักของเรา
 						</p>
-						<ul class="about-opt-list-2">
-							<li><i class="ti-check"></i>วางระบบ ISO ครอบคลุมทุกมาตรฐาน</li>
-							<li><i class="ti-check"></i>ให้คำปรึกษาปรับปรุงระบบงาน</li>
-							<li><i class="ti-check"></i>อบรมเชิงปฏิบัติโดยผู้เชี่ยวชาญ</li>
-							<li><i class="ti-check"></i>ดูแลตลอดกระบวนการรับรอง</li>
-						</ul>
+						<div class="about-opt-list-2">
+							<li><i class="ti-check"></i><span>วางระบบ ISO ครอบคลุมทุกมาตรฐาน</span></li>
+							<li><i class="ti-check"></i><span>ให้คำปรึกษาปรับปรุงระบบการทำงาน</span></li>
+							<li><i class="ti-check"></i><span>อบรมเชิงปฏิบัติโดยผู้เชี่ยวชาญ</span></li>
+							<li><i class="ti-check"></i><span>ดูเเลทุกขั้นตอนกระบวนการทำงานจนถึงได้รับใบรับรองผล (Certificate)</span></li>
+						</div>
 						<div class="about-contact-2">
 							<div class="about-cnt-icon">
 								<i class="ti-microphone"></i>
 							</div>
 							<div class="about-cnt-text">
-								<h5 class="heading-5">ถ้ามีคำถามเพิ่มเติม เรายินดีให้คำปรึกษา!</h5>
+								<h5 class="heading-5">หากมีข้อสงสัยต้องการปรึกษาเพิ่มเติม เราพร้อมยินดีให้คำปรึกษา</h5>
 								<p class="mb-0">
-									<a href="tel:9123456789">(+66) 64-645-1525</a>
+									<a href="tel:+66636452424">(+66) 63-645-2424</a>
 								</p>
 							</div>
 						</div>
-						<a href="<? rootURL(); ?>about-us" class="btn-1 btn-md btn-border-2">
+						<a href="<? rootURL(); ?>about-us/" class="btn-1 btn-md btn-border-2">
 							ค้นพบเพิ่มเติม
 						</a>
 					</div>
@@ -206,7 +206,7 @@
 										<div class="about-cnt-text">
 											<h5 class="heading-5">ก้าวสู่ความสำเร็จด้วยกันได้ตั้งแต่ตอนนี้ !</h5>
 											<p class="mb-0">
-												<a href="tel:9123456789">(+66) 64-645-1525</a>
+												<a href="tel:+66636452424">(+66) 63-645-2424</a>
 											</p>
 										</div>
 									</div>

@@ -34,6 +34,7 @@
                     <h2 class="breadcrumb-title">Traning service</h2>
                     <ul class="breadcrumb-menu clearfix">
                         <li><a href="/">Home</a></li>
+                        <li><a href="/">Services</a></li>
                         <li class="active">Traning service</li>
                     </ul>
                 </div>
@@ -93,31 +94,7 @@
                     <div class="col-xl-4">
                         <aside class="sidebar">
                             <!-- Category -->
-                            <div class="widget category">
-                                <h5 class="work-title">Services Category</h5>
-                                <div class="category-list">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <span>Training ISO</span>
-                                                <i class="ti-angle-right"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>Consult ISO</span>
-                                                <i class="ti-angle-right"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>Pre Audit</span>
-                                                <i class="ti-angle-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <?php require_once './component/services_sidebar.php' ?>
                         </aside>
                     </div>
                 </div>

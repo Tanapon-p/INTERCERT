@@ -1,3 +1,12 @@
+<?php
+// ฟังก์ชันสำหรับตรวจสอบ URL ปัจจุบัน
+function isServicesPage()
+{
+    $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    return $currentPath === '/services/' || $currentPath === '/services';
+}
+?>
+
 <div class="service-area-2 bg de-pb service-top-padding service-minus-margin">
     <div class="container">
         <div class="row mb-60 align-items-center">
@@ -13,9 +22,11 @@
             </div>
             <div class="col-xl-4">
                 <div class="service-botam text-right">
-                    <a href="<? rootURL(); ?>about-us" class="btn-1 btn-md">
-                        ดูเพิ่มเติม
-                    </a>
+                    <?php if (!isServicesPage()): ?>
+                        <a href="/services/" class="btn-1 btn-md">
+                            ดูเพิ่มเติม
+                        </a>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>

@@ -2351,10 +2351,19 @@ div[data-bg] {
 }
 
 .navbar .navbar-brand .logo-display {
+  margin-top: 16px;
+  max-width: 80px;
   display: none;
 }
 
+.logo-outside{
+  margin-top: 16px;
+
+}
+
 .navbar .navbar-brand .logo-scrolled {
+  margin-top: 16px;
+  max-width: 80px;
   display: none;
 }
 
@@ -4715,7 +4724,7 @@ ul.chk {
 }
 .about-opt-list-2 li {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 10px;
   margin-bottom: 1.5rem;
 }

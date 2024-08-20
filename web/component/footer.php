@@ -10,7 +10,7 @@
 							มาสร้างมาตรฐานระดับโลกด้วยกัน!
 						</h2>
 						<h4 class="heading-4 mb-0">
-							<a href="<? rootURL(); ?>contact-us/">เริ่มต้นสร้างมาตรฐานระดับโลกได้แล้ววันนี้</a>
+							<a href="/contact-us/">เริ่มต้นสร้างมาตรฐานระดับโลกได้แล้ววันนี้</a>
 						</h4>
 					</div>
 				</div>
@@ -18,13 +18,13 @@
 					<div class="footer-widget footer-link">
 						<ul class="footer-list">
 							<li>
-								<a href="<? rootURL(); ?>about-us/">
+								<a href="/about-us/">
 									<i class="fa-solid fa-chevron-right"></i>
 									About Us
 								</a>
 							</li>
 							<li>
-								<a href="/">
+								<a href="/services/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Services
 								</a>
@@ -48,19 +48,19 @@
 					<div class="footer-widget footer-link">
 						<ul class="footer-list">
 							<li>
-								<a href="<? rootURL(); ?>traning-service/">
+								<a href="/services/traning/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Traning ISO
 								</a>
 							</li>
 							<li>
-								<a href="/">
+								<a href="/services/consult/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Consult ISO
 								</a>
 							</li>
 							<li>
-								<a href="/">
+								<a href="/services/preaudit/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Pre audit
 								</a>
@@ -117,7 +117,7 @@
 
 <div class="cta-mobile d-flex d-md-none position-fixed w-100 bottom-0 row mx-0" style="z-index: 9000;">
 	<div class="col px-0">
-		<a href="tel:+66646453632" class="btn btn-primary fs-2 w-100 py-5 rounded-0"><i class="fa-solid fa-phone-volume"></i> &nbsp; (+66) 64-645-1525></a>
+		<a href="tel:+66646453632" class="btn btn-primary fs-2 w-100 py-5 rounded-0"><i class="fa-solid fa-phone-volume"></i> &nbsp; (+66) 63-645-2424></a>
 	</div>
 	<div class="col px-0">
 		<a href="https://line.me/ti/p/wu5MPjs0b4" class="btn fs-2 btn-success w-100 py-5 rounded-0"><i class="fa-brands fa-line"></i> &nbsp; @onestopISO</a>

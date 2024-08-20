@@ -10,7 +10,7 @@
   }
 
   .navbar-bar-shape {
-    width: 500px;
+    width: 350px;
   }
 
   .top-bar-shape {
@@ -65,7 +65,7 @@
 
   .navbar-bar-shape {
     height: 100%;
-    width: 300px;
+    width: 250px;
   }
 
   .top-bar-shape {
@@ -75,7 +75,7 @@
   }
 
   .top-bar-area::before {
-    width: 100%;
+    width: 115%;
   }
 
   main.main {
@@ -170,7 +170,7 @@
   }
 
   .top-bar-area::before {
-    width: 104%;
+    width: 120%;
   }
 
   .top-bar-shape {

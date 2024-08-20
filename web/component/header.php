@@ -36,11 +36,11 @@
 									</div>
 									<div class="top-email top-box mr-30">
 										<i class="fa-solid fa-envelope"></i>
-										<span>onestopiso2565@gmail.com</span>
+										<span>Salesonestopiso@gmail.com</span>
 									</div>
 									<div class="top-phone top-box">
 										<i class="fa-solid fa-phone"></i>
-										<span> (+66) 64-645-1525 </span>
+										<span> (+66) 63-645-2424 </span>
 									</div>
 								</div>
 							</div>
@@ -66,21 +66,15 @@
 								<li class="nav-item dropdown fadeup">
 									<a class="nav-link" href="/">หน้าหลัก</a>
 								</li>
-								<!-- <li class="nav-item dropdown fadeup">
-										<a class="nav-link" href="#">Pages <i class="ti-plus"></i></a>
-										<ul class="navbar-nav">
-											<li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-											<li class="nav-item"><a class="nav-link" href="service-single.html">Service Single</a></li>
-											<li class="nav-item"><a class="nav-link" href="gallery.html">Projects</a></li>
-											<li class="nav-item"><a class="nav-link" href="project-single.html">Project Single</a></li>
-											<li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
-											<li class="nav-item"><a class="nav-link" href="price.html">Pricing Table</a></li>
-											<li class="nav-item"><a class="nav-link" href="register.html">Register Page</a></li>
-											<li class="nav-item"><a class="nav-link" href="login.html">Login Page</a></li>
-											<li class="nav-item"><a class="nav-link" href="faq.html">Faq</a></li>
-											<li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
-										</ul>
-									</li> -->
+								<li class="nav-item dropdown fadeup">
+									<a class="nav-link" href="/services/">บริการของเรา<i class="ti-plus"></i></a>
+									<ul class="navbar-nav">
+										<li class="nav-item"><a class="nav-link" href="/services/traning/">Traning ISO</a></li>
+										<li class="nav-item"><a class="nav-link" href="/services/consult/">Consult ISO</a></li>
+										<li class="nav-item"><a class="nav-link" href="/services/preaudit/">Pre audit</a></li>
+
+									</ul>
+								</li>
 								<li class="nav-item"><a class="nav-link" href="<?= rootURL(); ?>about-us/">เกี่ยวกับเรา</a></li>
 								<li class="nav-item dropdown fadeup">
 									<a class="nav-link" href="/">มาตรฐาน ISO <i class="ti-plus"></i></a>

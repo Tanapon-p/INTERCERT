@@ -13,9 +13,11 @@
             </div>
             <div class="col-xl-4">
                 <div class="service-botam text-right">
-                    <a href="<? rootURL(); ?>about-us" class="btn-1 btn-md">
+
+                    <a href="/services/" class="btn-1 btn-md">
                         ดูเพิ่มเติม
                     </a>
+
                 </div>
             </div>
         </div>

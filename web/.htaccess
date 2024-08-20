@@ -5,7 +5,7 @@ RewriteCond %{THE_REQUEST} \s/404\.php\s [NC]
 RewriteRule ^ /404/? [R=301,L]
 RewriteRule ^404/$ /404.php [L]
 
-#services
+#ISO standard
 RewriteRule ^iso-service/([0-9]+)/(.*)/$ iso_service.php?id=$1&url=$2 [L]
 RewriteRule ^iso-service/([0-9]+)/(.*)$ /iso-service/$1/$2/ [L]
 
@@ -23,9 +23,24 @@ RewriteCond %{THE_REQUEST} \s/contact\.php\s [NC]
 RewriteRule ^ /contact-us/? [R=301,L]
 RewriteRule ^contact-us/$ /contact.php [L]
 
+#Service landing
+RewriteCond %{THE_REQUEST} \s/services_page\.php\s [NC]
+RewriteRule ^ /services/? [R=301,L]
+RewriteRule ^services/$ /services_page.php [L]
+
 #Traning service
 RewriteCond %{THE_REQUEST} \s/traning_service\.php\s [NC]
-RewriteRule ^ /traning-service/? [R=301,L]
-RewriteRule ^traning-service/$ /traning_service.php [L]
+RewriteRule ^ /traning/? [R=301,L]
+RewriteRule ^services/traning/$ /traning_service.php [L]
+
+#Consult service
+RewriteCond %{THE_REQUEST} \s/consult_service\.php\s [NC]
+RewriteRule ^ /consult/? [R=301,L]
+RewriteRule ^services/consult/$ /consult_service.php [L]
+
+#Consult service
+RewriteCond %{THE_REQUEST} \s/preaudit_service\.php\s [NC]
+RewriteRule ^ /preaudit/? [R=301,L]
+RewriteRule ^services/preaudit/$ /preaudit_service.php [L]
 
 ErrorDocument 404 /404/

@@ -54,6 +54,12 @@ margin-bottom: 40px;
 
 }
 
+
+.about-opt-list-2 li span {
+    display: inline-block;
+    width: -webkit-fill-available;
+}
+
 .addr-box-single-link:hover {
     text-decoration: none;
 }
