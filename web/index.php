@@ -36,7 +36,7 @@
 													เพราะคุณภาพคือหัวใจ ISO คือคำตอบ
 												</h2>
 												<div class="hero-btn">
-													<a href="contact.php" class="btn-5 btn-md btn-white">Contact Us</a>
+													<a href="<?= rootURL(); ?>contact-us/" class="btn-5 btn-md btn-white">Contact Us</a>
 												</div>
 											</div>
 										</div>
@@ -63,7 +63,7 @@
 													ISO ไม่ใช่เรื่องยาก แค่เลือกผู้เชี่ยวชาญที่ใช่
 												</h2>
 												<div class="hero-btn">
-													<a href="contact.php" class="btn-5 btn-md btn-white">Contact Us</a>
+													<a href="<?= rootURL(); ?>contact-us/" class="btn-5 btn-md btn-white">Contact Us</a>
 												</div>
 											</div>
 										</div>
@@ -129,7 +129,7 @@
 								</p>
 							</div>
 						</div>
-						<a href="about.php" class="btn-1 btn-md btn-border-2">
+						<a href="<? rootURL(); ?>about-us" class="btn-1 btn-md btn-border-2">
 							ค้นพบเพิ่มเติม
 						</a>
 					</div>
@@ -145,124 +145,14 @@
 
 		<!-- Start Service ISO Standard
 		============================================= -->
-		<div class="service-area-2 bg de-pb service-top-padding service-minus-margin">
-			<div class="container">
-				<div class="row mb-60 align-items-center">
-					<div class="col-xl-8">
-						<span class="hero-sub-title mb-20">
-							<span class="hero-line"></span>
-							What We Do
-						</span>
-						<h2 class="heading-1">
-							เราให้บริการที่ปรึกษา ISO <br />
-							แบบครบจบในที่เดียว
-						</h2>
-					</div>
-					<div class="col-xl-4">
-						<div class="service-botam text-right">
-							<a href="about.php" class="btn-1 btn-md">
-								ดูเพิ่มเติม
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="service-wpr-2 grid-4">
-					<?php
-					require_once './static/services_data.php';
-					$i = 0;
-					foreach ($services as $service) :
-						if ($i >= 1) {
-					?>
-							<div class="service-box-2">
-								<div class="service-up-2">
-									<div class="service-img-2">
-										<img src="<?php echo $service['img_url']; ?>" alt="no image">
-									</div>
-									<!-- <div class="service-value-2">
-										<span><?php echo $service['number']; ?></span>
-									</div> -->
-								</div>
-								<div class="service-desc-2">
-									<div>
-										<a href="<?php echo $service['link']; ?>">
-											<h5 class="heading-4"><?php echo $service['title']; ?></h5>
-										</a>
-										<div class="service-subtitle-2"><?php echo $service['subtitle']; ?></div>
-										<p>
-											<?php echo $service['description']; ?>
-										</p>
-									</div>
-									<div>
-										<a href="<?php echo $service['link']; ?>" class="service-btn-2">
-											อ่านเพิ่มเติม &rarr;
-										</a>
-									</div>
-								</div>
-							</div>
-					<?php
-						}
-						$i++;
-					endforeach;
-					?>
-				</div>
-			</div>
-		</div>
+		<?php require_once './component/iso_standards.php' ?>
+
 		<!-- End Service ISO Standard -->
 
 		<!-- Start Service
 		============================================= -->
-		<div class="service-area-2 bg de-pb service-top-padding service-minus-margin">
-			<div class="container">
-				<div class="row mb-60 align-items-center">
-					<div class="col-xl-8">
-						<span class="hero-sub-title mb-20">
-							<span class="hero-line"></span>
-							Services we provide
-						</span>
-						<h2 class="heading-1">
-							ก้าวข้ามขีดจำกัด สู่มาตรฐาน ISO ระดับโลก<br />
-							ด้วยโซลูชันครบวงจร
-						</h2>
-					</div>
-					<div class="col-xl-4">
-						<div class="service-botam text-right">
-							<a href="about.php" class="btn-1 btn-md">
-								ดูเพิ่มเติม
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="service-wpr-2 grid-3">
-					<?php
-					require_once './static/services_data.php';
-					foreach ($iso_services as $iso_service) :
-					?>
-						<div class="service-box-2">
-							<div class="service-up-2 service-up-center">
-								<div class="service-img-3">
-									<img src="<?php echo $iso_service['img_url']; ?>" alt="no image">
-								</div>
-							</div>
-							<div class="service-desc-2">
-								<div>
-									<a href="<?php echo $iso_service['link']; ?>">
-										<h5 class="heading-4"><?php echo $iso_service['title']; ?></h5>
-									</a>
-									<p>
-										<?php echo $iso_service['description']; ?>
-									</p>
-								</div>
-								<div>
-									<a href="<?php echo $iso_service['link']; ?>" class="service-btn-2">
-										อ่านเพิ่มเติม &rarr;
-									</a>
-								</div>
-							</div>
-						</div>
-					<?php endforeach; ?>
-				</div>
-			</div>
-		</div>
+		<?php require_once './component/services.php' ?>
+
 		<!-- End Service -->
 
 		<!-- Start Why Choose Us
@@ -322,7 +212,7 @@
 									</div>
 
 								</div>
-								<a href="about.php" class="btn-1 btn-md btn-border-2">
+								<a href="<? rootURL(); ?>about-us" class="btn-1 btn-md btn-border-2">
 									ค้นพบเพิ่มเติม
 								</a>
 							</div>
@@ -434,7 +324,7 @@
 						</h2>
 					</div>
 					<div class="cta-right center-right">
-						<a href="about.php" class="btn-1 btn-white btn-md">
+						<a href="<? rootURL(); ?>about-us" class="btn-1 btn-white btn-md">
 							ดูเพิ่มเติม
 						</a>
 					</div>
@@ -505,7 +395,7 @@
 								<li><i class="icofont-check-alt"></i>Shareable Team Libraries</li>
 							</ul>
 							<div class="price-bottom">
-								<a href="contact.php" class="price-btn">
+								<a href="<?= rootURL(); ?>contact-us/" class="price-btn">
 									Get Started <i class="icofont-rounded-double-right"></i>
 								</a>
 							</div>
@@ -531,7 +421,7 @@
 								<li><i class="icofont-check-alt"></i>Shareable Team Libraries</li>
 							</ul>
 							<div class="price-bottom">
-								<a href="contact.php" class="price-btn">
+								<a href="<?= rootURL(); ?>contact-us/" class="price-btn">
 									Get Started <i class="icofont-rounded-double-right"></i>
 								</a>
 							</div>
@@ -556,7 +446,7 @@
 								<li><i class="icofont-check-alt"></i>Shareable Team Libraries</li>
 							</ul>
 							<div class="price-bottom">
-								<a href="contact.php" class="price-btn">
+								<a href="<?= rootURL(); ?>contact-us/" class="price-btn">
 									Get Started <i class="icofont-rounded-double-right"></i>
 								</a>
 							</div>

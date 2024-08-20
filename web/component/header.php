@@ -81,9 +81,9 @@
 											<li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
 										</ul>
 									</li> -->
-								<li class="nav-item"><a class="nav-link" href="about.php">เกี่ยวกับเรา</a></li>
+								<li class="nav-item"><a class="nav-link" href="<?= rootURL(); ?>about-us/">เกี่ยวกับเรา</a></li>
 								<li class="nav-item dropdown fadeup">
-									<a class="nav-link" href="#">มาตรฐาน ISO <i class="ti-plus"></i></a>
+									<a class="nav-link" href="/">มาตรฐาน ISO <i class="ti-plus"></i></a>
 									<ul class="navbar-nav">
 
 										<?php
@@ -103,10 +103,10 @@
 											<li class="nav-item"><a class="nav-link" href="single.html">Blog Single</a></li>
 										</ul>
 									</li> -->
-								<li class="nav-item"><a class="nav-link" href="contact.php">ติดต่อเรา</a></li>
+								<li class="nav-item"><a class="nav-link" href="<?= rootURL(); ?>contact-us/">ติดต่อเรา</a></li>
 							</ul>
 							<!-- <div class="search-cart nav-profile">
-									<a href="contact.php" class="btn-1 btn-sm">Let's Begin</a>
+									<a href="/contact.php" class="btn-1 btn-sm">Let's Begin</a>
 								</div> -->
 						</div>
 					</div>

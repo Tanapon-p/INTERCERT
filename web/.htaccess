@@ -14,13 +14,18 @@ RewriteRule ^articles/([0-9]+)/(.*)/$ article.php?id=$1&url=$2 [L]
 RewriteRule ^articles/([0-9]+)/(.*)$ /articles/$1/$2/ [L]
 
 #About Us
-RewriteCond %{THE_REQUEST} \s/about-us\.php\s [NC]
+RewriteCond %{THE_REQUEST} \s/about\.php\s [NC]
 RewriteRule ^ /about-us/? [R=301,L]
-RewriteRule ^about-us/$ /about-us.php [L]
+RewriteRule ^about-us/$ /about.php [L]
 
 #Contact Us
 RewriteCond %{THE_REQUEST} \s/contact\.php\s [NC]
-RewriteRule ^ /contact/? [R=301,L]
-RewriteRule ^contact/$ /contact.php [L]
+RewriteRule ^ /contact-us/? [R=301,L]
+RewriteRule ^contact-us/$ /contact.php [L]
+
+#Traning service
+RewriteCond %{THE_REQUEST} \s/traning_service\.php\s [NC]
+RewriteRule ^ /traning-service/? [R=301,L]
+RewriteRule ^traning-service/$ /traning_service.php [L]
 
 ErrorDocument 404 /404/

@@ -10,7 +10,7 @@
 							มาสร้างมาตรฐานระดับโลกด้วยกัน!
 						</h2>
 						<h4 class="heading-4 mb-0">
-							<a href="contact.php">เริ่มต้นสร้างมาตรฐานระดับโลกได้แล้ววันนี้</a>
+							<a href="<? rootURL(); ?>contact-us/">เริ่มต้นสร้างมาตรฐานระดับโลกได้แล้ววันนี้</a>
 						</h4>
 					</div>
 				</div>
@@ -18,25 +18,25 @@
 					<div class="footer-widget footer-link">
 						<ul class="footer-list">
 							<li>
-								<a href="about.php">
+								<a href="<? rootURL(); ?>about-us/">
 									<i class="fa-solid fa-chevron-right"></i>
 									About Us
 								</a>
 							</li>
 							<li>
-								<a href="service.html">
+								<a href="/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Services
 								</a>
 							</li>
 							<li>
-								<a href="gallery.html">
+								<a href="/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Get quatation
 								</a>
 							</li>
 							<li>
-								<a href="contact.php">
+								<a href="<?= rootURL(); ?>contact-us/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Contact us
 								</a>
@@ -48,19 +48,19 @@
 					<div class="footer-widget footer-link">
 						<ul class="footer-list">
 							<li>
-								<a href="about.php">
+								<a href="<? rootURL(); ?>traning-service/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Traning ISO
 								</a>
 							</li>
 							<li>
-								<a href="service-single.html">
+								<a href="/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Consult ISO
 								</a>
 							</li>
 							<li>
-								<a href="product-single.html">
+								<a href="/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Pre audit
 								</a>

@@ -103,7 +103,7 @@ $iso_services = [
         'img_url' => rootURL() . 'assets/img/services/training.png',
         'title' => 'Training ISO',
         'description' => 'ยกระดับองค์กรของคุณด้วยการฝึกอบรม ISO จากผู้เชี่ยวชาญ เรามีประสบการณ์มากกว่า 15 ปีในการอบรมมาตรฐานสากลหลากหลายประเภท พร้อมปรับแต่งหลักสูตรให้เหมาะกับธุรกิจของคุณ',
-        'link' => '#'
+        'link' => rootURL() . 'traning-service/'
     ],
     [
         'img_url' => rootURL() . 'assets/img/services/consult.png',
