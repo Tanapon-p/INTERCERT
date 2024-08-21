@@ -36,7 +36,7 @@
 									</div>
 									<div class="top-email top-box mr-30">
 										<i class="fa-solid fa-envelope"></i>
-										<span>Salesonestopiso@gmail.com</span>
+										<span>saleonestopiso@gmail.com</span>
 									</div>
 									<div class="top-phone top-box">
 										<i class="fa-solid fa-phone"></i>

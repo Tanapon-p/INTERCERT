@@ -31,11 +31,11 @@
         <div class="site-breadcrumb" style="background: url(<?php echo rootURL(); ?>assets/img/pictures/breadcrumb.jpg)">
             <div class="container">
                 <div class="site-breadcrumb-wpr">
-                    <h2 class="breadcrumb-title">Pre-audit service</h2>
+                    <h2 class="breadcrumb-title">Pre-Audit</h2>
                     <ul class="breadcrumb-menu clearfix">
                         <li><a href="/">Home</a></li>
-                        <li><a href="/">Services</a></li>
-                        <li class="active">Pre-audit service</li>
+                        <li><a href="/services/">Services</a></li>
+                        <li class="active">Pre-Audit</li>
                     </ul>
                 </div>
             </div>
@@ -50,45 +50,34 @@
                     <div class="col-xl-8">
                         <div class="service-single-wpr pr-50">
                             <img src="<?= rootURL(); ?>assets/img/pictures/pre-audit-pic.jpg" class="d-block mb-30" alt="no image">
-                            <h2 class="heading-2 mb-20">Pre-audit service</h2>
+                            <h2 class="heading-2 mb-20">Pre-Audit</h2>
                             <div class="service-tx mb-40">
                                 <p class="mb-20">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias autem illo, quo vitae omnis. Perferendis quasi commodi deleniti animi culpa blanditiis rerum libero aliquid possimus amet debitis, nihil odio!
+                                    เป็นการตรวจประเมินก่อนที่ลูกค้าหรือ CB จะมาตรวจประเมินองค์กรของท่าน โดยทางทีมอาจารย์ที่ปรึกษาจะร่วมวางแผนกับทางองค์กร เพื่อกำหนดขอบข่ายและจุดมุ่งเน้นในการตรวจประเมิน ให้ตอบสนองความต้องการขององค์กรและลูกค้า โดยมีขั้นตอนดังนี้
                                 </p>
-                                <p class="mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur porro repudiandae, doloribus, deleniti, error cupiditate pariatur veritatis quia voluptatem quidem ad ipsa consectetur numquam odit totam? Autem, deserunt. Recusandae, ut!
-                                </p>
+                                <ul class="service-single-list mb-20">
+                                    <li>
+                                        <i class="ti ti-angle-right"></i>
+                                        ผู้ตรวจสอบจาก One Stop ISO มาทำการรวบรวมข้อมูลจากองค์กร
+                                    </li>
+                                    <li>
+                                        <i class="ti ti-angle-right"></i>
+                                        ผู้ตรวจสอบวางแผนและกำหนดขอบข่ายร่วมกับองค์กร
+                                    </li>
+                                    <li>
+                                        <i class="ti ti-angle-right"></i>
+                                        ผู้ตรวจสอบทำการทบทวนเอกสารและจัดทำรายการตรวจสอบ
+                                    </li>
+                                    <li>
+                                        <i class="ti ti-angle-right"></i>
+                                        ดำเนินการตรวจสอบ
+                                    </li>
+                                    <li>
+                                        <i class="ti ti-angle-right"></i>
+                                        ส่งมอบรายงานการตรวจสอบในรูปแบบที่องค์กรต้องการ
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="service-element grid-2 mb-40">
-                                <div class="service-element-desc">
-                                    <h4 class="heading-4 mb-20">Service Overview</h4>
-                                    <p>
-                                        Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. contained explained my education
-                                    </p>
-                                    <ul class="service-single-list">
-                                        <li>
-                                            <i class="ti ti-angle-right"></i>
-                                            Commercial freight
-                                        </li>
-                                        <li>
-                                            <i class="ti ti-angle-right"></i>
-                                            Residential freight
-                                        </li>
-                                        <li>
-                                            <i class="ti ti-angle-right"></i>
-                                            Tootsie roll lollipop topping
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- <img src="assets/img/pictures/img-5.jpg" alt="no image"> -->
-                            </div>
-                            <h2 class="heading-2 mb-20">Our strengths and advantages</h2>
-                            <p class="mb-0">
-                                Globally optimize highly efficient solution whereas open-source application. Completely strategize quality internal or
-                                "organic" sources for virtual e-business. Phosfluorescently re-engineer enterprise markets via value-added networks.
-                                Seamlessly restore inexpensive e-markets vis-a-vis corporate intellectual capital. Holisticly reinvent compelling niche
-                                markets via scalable strategic.
-                            </p>
                         </div>
                     </div>
                     <div class="col-xl-4">

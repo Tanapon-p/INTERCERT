@@ -96,6 +96,22 @@ $services = [
         'description' => 'ยกระดับมาตรฐานห้องปฏิบัติการ ด้วย ISO 17025:2017 สู่ความน่าเชื่อถือระดับสากลในการทดสอบ',
         'link' => rootURL() . 'iso-service/12/ISO-17025:2017/',
         'img_url' => rootURL() . 'assets/img/iso/iso-17025.png'
+    ],
+    [
+        'number' => '13',
+        'title' => 'ISO 22301:2019',
+        'subtitle' => 'ระบบการบริหารความต่อเนื่องทางธุรกิจ',
+        'description' => 'เตรียมพร้อมรับมือทุกสถานการณ์ ด้วย ISO 22301:2019 เพื่อสร้างระบบบริหารความต่อเนื่องทางธุรกิจที่แข็งแกร่ง',
+        'link' => rootURL() . 'iso-service/12/ISO-22301:2019/',
+        'img_url' => rootURL() . 'assets/img/iso/iso-22301.png'
+    ],
+    [
+        'number' => '14',
+        'title' => 'ISO 20000:2018',
+        'subtitle' => 'ระบบบริหารจัดการบริการด้านเทคโนโลยีสารสนเทศ',
+        'description' => 'ยกระดับการให้บริการ IT สู่มาตรฐานสากล ด้วย ISO 20000:2018 เพื่อการบริหารจัดการบริการ IT ที่มีประสิทธิภาพ',
+        'link' => rootURL() . 'iso-service/12/ISO-20000:2018/',
+        'img_url' => rootURL() . 'assets/img/iso/iso-20000.png'
     ]
 ];
 $iso_services = [

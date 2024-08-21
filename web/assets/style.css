@@ -5035,6 +5035,7 @@ ul.chk {
   position: relative;
   z-index: 1;
   padding: 0 0 5rem 5rem;
+
 }
 .work-pic .work-content {
   position: absolute;
@@ -8047,7 +8048,7 @@ h4.team-single-title::before {
   margin-right: 20px;
   border-right: 1px solid #ccc;
 }
-.partner-left .heading-3 {
+.partner-left .heading-5 {
   line-height: 1.4;
   margin-bottom: 10px;
   color: var(--clr-white);

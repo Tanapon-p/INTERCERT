@@ -31,11 +31,11 @@
         <div class="site-breadcrumb" style="background: url(<?php echo rootURL(); ?>assets/img/pictures/breadcrumb.jpg)">
             <div class="container">
                 <div class="site-breadcrumb-wpr">
-                    <h2 class="breadcrumb-title">Traning service</h2>
+                    <h2 class="breadcrumb-title">Training ISO</h2>
                     <ul class="breadcrumb-menu clearfix">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">Services</a></li>
-                        <li class="active">Traning service</li>
+                        <li><a href="/">หน้าหลัก</a></li>
+                        <li><a href="/services/">บริการของเรา</a></li>
+                        <li class="active">Traning</li>
                     </ul>
                 </div>
             </div>
@@ -50,45 +50,88 @@
                     <div class="col-xl-8">
                         <div class="service-single-wpr pr-50">
                             <img src="<?= rootURL(); ?>assets/img/pictures/traning-pic.jpg" class="d-block mb-30" alt="no image">
-                            <h2 class="heading-2 mb-20">Traning service</h2>
+                            <h2 class="heading-2 mb-20">Training ISO</h2>
                             <div class="service-tx mb-40">
                                 <p class="mb-20">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias autem illo, quo vitae omnis. Perferendis quasi commodi deleniti animi culpa blanditiis rerum libero aliquid possimus amet debitis, nihil odio!
+                                    การให้บริการอบรมของ One Stop ISO co.,ltd
+                                    ครอบคลุมในทุกด้านธุรกิจหรืออุตสาหกรรมต่างๆ รวมถึงการให้บริการการอบรมทางด้านการพัฒนาศักยภาพ การทำงาน ทำให้เรามีคอร์สการอบรมมากกว่า 100 คอร์ส ซึ่งการอบรมของเราจะแบ่งเป็น 3 ข้อหลักๆ
                                 </p>
-                                <p class="mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur porro repudiandae, doloribus, deleniti, error cupiditate pariatur veritatis quia voluptatem quidem ad ipsa consectetur numquam odit totam? Autem, deserunt. Recusandae, ut!
+
+                                <ul class="mb-20">
+                                    <li>1. การให้บริการอบรมทางด้านมาตรฐานการรับรอง ISO ไม่ว่าจะเป็น ISO9001 , ISO14001 , ISO45001 , ISO/IEC27001 , ISO/IEC29110 และ อื่นอีกมากมาย</li>
+                                    <li>2. การให้บริการอบรมเฉพาะทาง Non ISO ไม่ว่าจะเป็น IATF16949 , GHP , BRC , FSSC</li>
+                                    <li>3. การให้บริการการอบรมพัฒนาศักยภาพ Soft Skill ไม่ว่าจะเป็น</li>
+                                </ul>
+                                <ul class="service-single-list mb-20">
+                                    <li>
+                                        <i class="ti ti-angle-right"></i>
+                                        พัฒนาศักยภาพการทำงานระดับพนักงาน
+                                    </li>
+                                    <li>
+                                        <i class="ti ti-angle-right"></i>
+                                        High Performing Leadership Development
+                                    </li>
+                                    <li>
+                                        <i class="ti ti-angle-right"></i>
+                                        เทคนิคการสอนงานแบบ OJT (On the job training)
+                                    </li>
+                                    <li>
+                                        <i class="ti ti-angle-right"></i>
+                                        Why Why Analysis & 3 GEN
+                                    </li>
+                                </ul>
+                                <p class="mb-20">
+                                    อื่น ๆ พัฒนาศักยภาพการทำงานระดับพนักงาน
                                 </p>
+                                <ul class="mb-20">
+                                    <ul class="service-single-list mb-20">
+                                        <li>
+                                            <i class="ti ti-angle-right"></i>
+                                            การอบรมการทำงานเฉพาะทาง
+                                        </li>
+                                        <li>
+                                            <i class="ti ti-angle-right"></i>
+                                            การอบรมการทำงานด้านวิศวกรรม
+                                        </li>
+                                        <li>
+                                            <i class="ti ti-angle-right"></i>
+                                            การอบรมการทำงานด้านการตลาด
+                                        </li>
+                                        <li>
+                                            <i class="ti ti-angle-right"></i>
+                                            การอบรมการทำงานด้านระบบปฏิบัติการการจัดการ
+                                        </li>
+                                        <li>
+                                            <i class="ti ti-angle-right"></i>
+                                            การอบรมการทำงานด้านการขนส่ง
+                                        </li>
+                                    </ul>
+                                </ul>
                             </div>
-                            <div class="service-element grid-2 mb-40">
+                            <div class="service-element mb-40">
                                 <div class="service-element-desc">
-                                    <h4 class="heading-4 mb-20">Service Overview</h4>
+                                    <h4 class="heading-4 mb-20">เวลาและสถานที่การอบรม</h4>
                                     <p>
-                                        Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. contained explained my education
+                                        การอบรมจะกำหนดอยู่ที่ 1 วันต่อ 1 หัวข้อ ลูกค้าสามารถเลือกอบรมได้ทั้งแบบ On-site และ On-line
                                     </p>
                                     <ul class="service-single-list">
                                         <li>
                                             <i class="ti ti-angle-right"></i>
-                                            Commercial freight
+                                            กำหนดผู้เข้าอบรมได้สูงสุด 30 ท่าน
                                         </li>
                                         <li>
                                             <i class="ti ti-angle-right"></i>
-                                            Residential freight
+                                            ผู้ที่เข้ารับการอบรมจะได้รับ Certificate ทุกท่าน
                                         </li>
                                         <li>
                                             <i class="ti ti-angle-right"></i>
-                                            Tootsie roll lollipop topping
+                                            กรณีผู้เข้าอบรมเกินจะมีค่าบริการออก Certificate 200 บาท ต่อท่าน
                                         </li>
                                     </ul>
                                 </div>
-                                <!-- <img src="assets/img/pictures/img-5.jpg" alt="no image"> -->
+
                             </div>
-                            <h2 class="heading-2 mb-20">Our strengths and advantages</h2>
-                            <p class="mb-0">
-                                Globally optimize highly efficient solution whereas open-source application. Completely strategize quality internal or
-                                "organic" sources for virtual e-business. Phosfluorescently re-engineer enterprise markets via value-added networks.
-                                Seamlessly restore inexpensive e-markets vis-a-vis corporate intellectual capital. Holisticly reinvent compelling niche
-                                markets via scalable strategic.
-                            </p>
+
                         </div>
                     </div>
                     <div class="col-xl-4">
@@ -97,6 +140,7 @@
                             <?php require_once './component/services_sidebar.php' ?>
                         </aside>
                     </div>
+
                 </div>
             </div>
         </div>

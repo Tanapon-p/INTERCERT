@@ -54,7 +54,7 @@
                     <div class="contact-home pl-30">
                         <div class="addr-home">
                             <div class="addr-box">
-                                <a href="mailto:Salesonestopiso@gmail.com" class="addr-box-single-link">
+                                <a href="mailto:saleonestopiso@gmail.com" class="addr-box-single-link">
                                     <div class="addr-box-single">
                                         <div class="addr-icon">
                                             <i class="icofont-email"></i>
@@ -62,12 +62,12 @@
                                         <div class="addr-desc">
                                             <h5>Email</h5>
                                             <p class="mb-0">
-                                                Salesonestopiso@gmail.com
+                                                saleonestopiso@gmail.com
                                             </p>
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://line.me/R/ti/p/@onestopISO" class="addr-box-single-link">
+                                <a href="https://line.me/ti/p/wu5MPjs0b4" class="addr-box-single-link">
                                     <div class="addr-box-single">
                                         <div class="addr-icon">
                                             <i class="fa-brands fa-line fa-2xl"></i>
@@ -75,7 +75,7 @@
                                         <div class="addr-desc">
                                             <h5>Line@</h5>
                                             <p class="mb-0">
-                                                @onestopISO
+                                                @Saleonestop
                                             </p>
                                         </div>
                                     </div>

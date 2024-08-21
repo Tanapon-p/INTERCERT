@@ -1,10 +1,5 @@
 <?php
-// ฟังก์ชันสำหรับตรวจสอบ URL ปัจจุบัน
-function isServicesPage()
-{
-    $currentPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-    return $currentPath === '/services/' || $currentPath === '/services';
-}
+require_once './utilities/utilities.php';
 ?>
 
 <div class="service-area-2 bg de-pb service-top-padding service-minus-margin">
