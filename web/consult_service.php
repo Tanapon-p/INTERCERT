@@ -33,9 +33,9 @@
                 <div class="site-breadcrumb-wpr">
                     <h2 class="breadcrumb-title">Consult service</h2>
                     <ul class="breadcrumb-menu clearfix">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/services/">Services</a></li>
-                        <li class="active">Consult service</li>
+                        <li><a href="/">หน้าหลัก</a></li>
+                        <li><a href="/services/">บริการของเรา</a></li>
+                        <li class="active">Consult</li>
                     </ul>
                 </div>
             </div>

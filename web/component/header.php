@@ -75,7 +75,6 @@
 
 									</ul>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="<?= rootURL(); ?>about-us/">เกี่ยวกับเรา</a></li>
 								<li class="nav-item dropdown fadeup">
 									<a class="nav-link" href="/">มาตรฐาน ISO <i class="ti-plus"></i></a>
 									<ul class="navbar-nav">
@@ -89,6 +88,9 @@
 										?>
 									</ul>
 								</li>
+
+								<li class="nav-item"><a class="nav-link" href="<?= rootURL(); ?>about-us/">เกี่ยวกับเรา</a></li>
+
 								<!-- <li class="nav-item dropdown fadeup">
 										<a class="nav-link" href="#">Blog <i class="ti-plus"></i></a>
 										<ul class="navbar-nav">
