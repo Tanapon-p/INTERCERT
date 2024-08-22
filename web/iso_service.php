@@ -33,8 +33,8 @@
                 <div class="site-breadcrumb-wpr">
                     <h2 class="breadcrumb-title">Service Details</h2>
                     <ul class="breadcrumb-menu clearfix">
-                        <li><a href="/">Home</a></li>
-                        <li class="active">Service Details</li>
+                        <li><a href="/">หน้าหลัก</a></li>
+                        <li class="active">มาตรฐาน ISO</li>
                     </ul>
                 </div>
             </div>
@@ -49,48 +49,65 @@
                     <div class="col-xl-8">
                         <div class="service-single-wpr pr-50">
                             <img src="<?= $services[$_GET['id']]['img_url']; ?>" class="d-block mb-30" alt="no image">
-                            <h2 class="heading-2 mb-20"><?= $services[$_GET['id']]['title']; ?></h2>
+                            <h2 class="heading-2 mb-20"><?= $services[$_GET['id']]['heading-1']; ?></h2>
                             <div class="service-tx mb-40">
                                 <p class="mb-20">
-                                    Globally optimize highly efficient solution whereas open-source application. Completely strategize quality internal or
-                                    "organic" sources for virtual e-business. Phosfluorescently re-engineer enterprise markets via value-added networks.
-                                    Seamlessly restore inexpensive e-markets vis-a-vis corporate intellectual capital. Holisticly reinvent compelling niche
-                                    markets via scalable strategic.
+                                    <?= $services[$_GET['id']]['p-1']; ?>
                                 </p>
-                                <p class="mb-0">
-                                    Authoritatively scale business meta-services before client-based technologies. Collaboratively strategize synergistic scenarios rather than flexible action items. Continually deliver market positioning convergence and mission-critical infrastructures.
-                                </p>
-                            </div>
-                            <div class="service-element grid-2 mb-40">
-                                <div class="service-element-desc">
-                                    <h4 class="heading-4 mb-20">Service Overview</h4>
-                                    <p>
-                                        Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. contained explained my education
+                                <?php if (!empty($services[$_GET['id']]['p-1-2'])): ?>
+                                    <p class="mb-20">
+                                        <?= $services[$_GET['id']]['p-1-2']; ?>
                                     </p>
-                                    <ul class="service-single-list">
-                                        <li>
-                                            <i class="ti ti-angle-right"></i>
-                                            Commercial freight
-                                        </li>
-                                        <li>
-                                            <i class="ti ti-angle-right"></i>
-                                            Residential freight
-                                        </li>
-                                        <li>
-                                            <i class="ti ti-angle-right"></i>
-                                            Tootsie roll lollipop topping
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- <img src="assets/img/pictures/img-5.jpg" alt="no image"> -->
+                                <?php endif; ?>
+
+                                <?php if (!empty($services[$_GET['id']]['p-1-3'])): ?>
+                                    <p class="mb-20">
+                                        <?= $services[$_GET['id']]['p-1-3']; ?>
+                                    </p>
+                                <?php endif; ?>
+
+
                             </div>
-                            <h2 class="heading-2 mb-20">Our strengths and advantages</h2>
-                            <p class="mb-0">
-                                Globally optimize highly efficient solution whereas open-source application. Completely strategize quality internal or
-                                "organic" sources for virtual e-business. Phosfluorescently re-engineer enterprise markets via value-added networks.
-                                Seamlessly restore inexpensive e-markets vis-a-vis corporate intellectual capital. Holisticly reinvent compelling niche
-                                markets via scalable strategic.
-                            </p>
+                            <div class="service-tx mb-40">
+                                <h3 class="heading-3 mb-20"><?= $services[$_GET['id']]['heading-2']; ?></h3>
+                                <?php if (!empty($services[$_GET['id']]['p-2'])): ?>
+                                    <p class="mb-0">
+                                        <?= $services[$_GET['id']]['p-2']; ?>
+                                    </p>
+                                <?php endif; ?>
+
+                                <?php if (!empty($services[$_GET['id']]['p-2-items'])): ?>
+
+                                    <ul class="service-single-list">
+                                        <?php foreach ($services[$_GET['id']]['p-2-items'] as $item): ?>
+                                            <li>
+                                                <i class="ti ti-angle-right"></i>
+                                                <?= $item; ?>
+                                            </li>
+                                        <?php endforeach; ?>
+                                    </ul>
+
+                                <?php endif; ?>
+
+                            </div>
+                            <div class="service-element mb-40">
+                                <div class="service-element-desc">
+                                    <?php if (!empty($services[$_GET['id']]['heading-3'])): ?>
+                                        <h3 class="heading-3 mb-20"><?= $services[$_GET['id']]['heading-3']; ?></h3>
+                                    <?php endif; ?>
+                                    <?php if (!empty($services[$_GET['id']]['p-3-items'])): ?>
+                                        <ul class="service-single-list">
+                                            <?php foreach ($services[$_GET['id']]['p-3-items'] as $item): ?>
+                                                <li>
+                                                    <i class="ti ti-angle-right"></i>
+                                                    <?= $item; ?>
+                                                </li>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div class="col-xl-4">

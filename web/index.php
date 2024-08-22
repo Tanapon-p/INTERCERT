@@ -19,7 +19,7 @@
 			<div class="swiper hero-sldr">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide hero-single-2">
-						<div class="hero-bg-animate hero-bg animate-pos" style="background-image: url(assets/img/pictures/promotion-1.jpg)">
+						<div class="hero-bg-animate hero-bg animate-pos" style="background-image: url(assets/img/pictures/promotion-2.jpg)">
 						</div>
 						<!-- <img src="<?= rootURL(); ?>assets/img/vector/mix-clean-5.png" class="mix-clean-5" alt="no image"> -->
 						<div class="container g-0">
@@ -28,13 +28,6 @@
 									<div class="col-xl-8 offset-xl-2">
 										<div class="hero-content text-center">
 											<div class="hero-content-desc">
-												<!-- <span class="hero-sub-title">
-													<span class="hero-line"></span>
-													ISO ใบเบิกทางสู่ความสำเร็จทางธุรกิจ
-												</span>
-												<h2 class="hero-title">
-													เพราะคุณภาพคือหัวใจ ISO คือคำตอบ
-												</h2> -->
 												<div class="hero-btn">
 													<a href="<?= rootURL(); ?>contact-us/" class="btn-5 btn-md btn-white">Contact Us</a>
 												</div>

@@ -13,7 +13,7 @@ require_once './utilities/utilities.php';
                 </span>
                 <h2 class="heading-1">
                     ก้าวข้ามขีดจำกัด สู่มาตรฐาน ISO ระดับโลก<br />
-                    ด้วยโซลูชันครบวงจร
+                    ด้วยโซลูชั่นครบวงจร
                 </h2>
             </div>
             <div class="col-xl-4">

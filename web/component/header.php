@@ -63,9 +63,8 @@
 								<img src="<?= rootURL(); ?>assets/img/logo/logo.png" class="logo-scrolled" alt="thumb">
 							</a>
 							<ul class="navbar-nav navbar-mobile justify-content-md-center w-100">
-								<li class="nav-item dropdown fadeup">
-									<a class="nav-link" href="/">หน้าหลัก</a>
-								</li>
+								<li class="nav-item"><a class="nav-link" href="/">หน้าหลัก</a></li>
+								<li class="nav-item"><a class="nav-link" href="<?= rootURL(); ?>about-us/">เกี่ยวกับเรา</a></li>
 								<li class="nav-item dropdown fadeup">
 									<a class="nav-link" href="/services/">บริการของเรา<i class="ti-plus"></i></a>
 									<ul class="navbar-nav">
@@ -89,7 +88,7 @@
 									</ul>
 								</li>
 
-								<li class="nav-item"><a class="nav-link" href="<?= rootURL(); ?>about-us/">เกี่ยวกับเรา</a></li>
+
 
 								<!-- <li class="nav-item dropdown fadeup">
 										<a class="nav-link" href="#">Blog <i class="ti-plus"></i></a>

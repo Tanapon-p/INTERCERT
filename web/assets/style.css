@@ -69,7 +69,7 @@
   --clr-bg: #f5f8ff;
   --clr-bg-2: #f6f6f6;
   --clr-bg-3: #eef3f9;
-  --clr-def: #ffc000;
+  --clr-def: #c79a33;
   --clr-def-2: #000000;
   --clr-def-3: #1d2027;
   --clr-menu: #ff4a17;
@@ -1660,7 +1660,7 @@ div[data-bg] {
 .hero-single-2 .hero-content .hero-sub-title {
   color: var(--clr-white);
   margin-bottom: 2rem;
-  font-size: 15px;
+  font-size: 30px;
 }
 .hero-single-2 .hero-content .hero-sub-title .hero-line {
   background: var(--clr-white);
@@ -4321,8 +4321,12 @@ ul.chk {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) ;
   justify-content: flex-start;
   justify-items: center;
-  padding: 12px;
+  padding: 20px;
   min-height: 140px;
+  padding: 20px;
+  
+  border-radius: 8px;
+  transition: all 0.3s ease, transform 0.3s ease;
 }
 
 .addr-home .addr-box .addr-box-single:nth-child(2) .addr-icon i:not(.fa-line) {
@@ -5970,7 +5974,7 @@ ul.chk {
 }
 .service-single-list li {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 1.5rem;
   font-weight: 500;
 }

@@ -11,7 +11,7 @@ require_once './utilities/utilities.php';
                     What We Do
                 </span>
                 <h2 class="heading-1">
-                    เราให้บริการที่ปรึกษา ISO <br />
+                    เราให้บริการที่ปรึกษา ISO <?php if (!isServicesPage()): ?><br /><?php endif; ?>
                     แบบครบจบในที่เดียว
                 </h2>
             </div>

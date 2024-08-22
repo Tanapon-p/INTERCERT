@@ -30,12 +30,6 @@
 								</a>
 							</li>
 							<li>
-								<a href="/">
-									<i class="fa-solid fa-chevron-right"></i>
-									Get quatation
-								</a>
-							</li>
-							<li>
 								<a href="<?= rootURL(); ?>contact-us/">
 									<i class="fa-solid fa-chevron-right"></i>
 									Contact us

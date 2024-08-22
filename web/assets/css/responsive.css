@@ -85,8 +85,8 @@
   /*	Hero 2*/
 
   .hero-single-2 {
-    height: auto;
-    padding: 25vh 0;
+    max-height: 725px;
+    /* padding: 25vh 0; */
   }
 
   /*	About*/
@@ -355,8 +355,8 @@
   }
 
   .hero-single-2 {
-    height: auto;
-    padding: 15rem 0 10rem 0;
+    max-height: 557px;
+    /* padding: 15rem 0 10rem 0; */
   }
 
   .hero-single-2 .hero-content .hero-title {
@@ -805,9 +805,10 @@
   }
 
   .hero-single-2 {
-    height: auto;
-    padding-top: 15rem;
-    padding-bottom: 5rem;
+    max-height: 300px;
+    margin-top: 5rem;
+    padding-top: 12rem;
+    padding-bottom: 3rem;
   }
 
   .hero-single.hero-2-bg {
@@ -1336,7 +1337,7 @@
   }
 
   .hero-single .hero-content .hero-sub-title {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-top: 3rem;
   }
 
@@ -1401,7 +1402,9 @@
   }
 
   .hero-single-2 {
-    height: auto;
+    width: auto;
+    max-height: 250px;
+    margin-top: 5rem;
     padding-top: 12rem;
     padding-bottom: 3rem;
   }
@@ -1411,7 +1414,7 @@
   }
 
   .hero-single-2 .hero-content .hero-sub-title {
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .hdr-pic {
