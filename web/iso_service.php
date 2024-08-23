@@ -48,7 +48,10 @@
                 <div class="row g-5">
                     <div class="col-xl-8">
                         <div class="service-single-wpr pr-50">
-                            <img src="<?= $services[$_GET['id']]['img_url']; ?>" class="d-block mb-30" alt="no image">
+                            <div class="d-flex justify-content-center">
+                                <img src="<?= $services[$_GET['id']]['img_url']; ?>" class="d-block mb-30 w-50" alt="no image">
+                            </div>
+
                             <h2 class="heading-2 mb-20"><?= $services[$_GET['id']]['heading-1']; ?></h2>
                             <div class="service-tx mb-40">
                                 <p class="mb-20">
@@ -110,48 +113,10 @@
 
                         </div>
                     </div>
+
                     <div class="col-xl-4">
                         <aside class="sidebar">
-                            <!-- Category -->
-                            <div class="widget category">
-                                <h5 class="work-title">Services Category</h5>
-                                <div class="category-list">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <span>Training ISO</span>
-                                                <i class="ti-angle-right"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>Consult ISO</span>
-                                                <i class="ti-angle-right"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <span>Pre Audit</span>
-                                                <i class="ti-angle-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <!-- Recent Subscribe -->
-                            <!-- <div class="widget subs bg-overlay hero-bg" style="background-image: url(assets/img/pictures/service-sidebar.jpg)">
-                                <h5 class="work-title">Newsletter</h5>
-                                <p class="subs-title">
-                                    Give lady of they such they sure it. Me contained explained my education.
-                                </p>
-                                <div class="subs-sub">
-                                    <div class="ipp">
-                                        <input type="text" placeholder="Enter Your Email">
-                                    </div>
-                                    <button type="submit">Subscribe</button>
-                                </div>
-                            </div> -->
+                            <?php require_once './component/services_sidebar.php' ?>
                         </aside>
                     </div>
                 </div>

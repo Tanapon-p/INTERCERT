@@ -4855,14 +4855,9 @@ ul.chk {
   align-items: center;
 }
 .service-box-2 .service-up-2 {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 3rem;
   padding-bottom: 4rem;
   border-bottom: 1px solid var(--clr-ccc);
-  align-items: center;
-  position: relative;
-  z-index: 1;
 }
 
 .service-box-2 .service-up-2 .service-icon-2 i {

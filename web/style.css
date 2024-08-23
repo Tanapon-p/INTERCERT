@@ -23,7 +23,13 @@
 }
 
 .service-img-2{
+    display: flex;
+    justify-content: center;
     min-height: 140px;
+}
+
+.service-img-2 img{
+    max-width: 75%
 }
 
 .service-img-3 img{
