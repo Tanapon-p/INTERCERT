@@ -86,7 +86,7 @@
 	<div class="copyright py-5">
 		<div class="container">
 			<div class="copyright-element d-flex align-items-center justify-content-between">
-				<p class="mb-0">Copyright <?=date("Y");?> ONE STOP ISO . All Rights Reserved</p>
+				<p class="mb-0">Copyright <?= date("Y"); ?> ONE STOP ISO . All Rights Reserved</p>
 				<ul class="footer-social">
 					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -114,6 +114,6 @@
 		<a href="tel:+66646453632" class="btn btn-primary fs-2 w-100 py-5 rounded-0"><i class="fa-solid fa-phone-volume"></i> &nbsp; (+66) 63-645-2424</a>
 	</div>
 	<div class="col px-0">
-		<a href="https://line.me/ti/p/wu5MPjs0b4" class="btn fs-2 btn-success w-100 py-5 rounded-0"><i class="fa-brands fa-line"></i> &nbsp; @Saleonestop</a>
+		<a href="https://line.me/ti/p/yeLz6_xbpa" class="btn fs-2 btn-success w-100 py-5 rounded-0"><i class="fa-brands fa-line"></i> &nbsp; @Saleonestop</a>
 	</div>
 </div>
