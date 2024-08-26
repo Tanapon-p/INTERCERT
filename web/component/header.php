@@ -36,15 +36,15 @@
 								<div class="top-box-wrp d-flex justify-content-md-center align-items-center">
 									<div class="top-box top-location mr-30">
 										<i class="fa-solid fa-location-dot"></i>
-										<span>55/72 Moo 2, Bangbuathong, Nonthaburi</span>
+										<a href="https://www.google.com/maps/search/55%2F72+Moo+2+Tambon+Bang+bua+thong+Amphoe+Bang+bua+Thong+Nonthaburi/@13.9205825,100.4096946,15z/data=!3m1!4b1?authuser=0&entry=ttu">55/72 Moo 2, Bangbuathong, Nonthaburi</a>
 									</div>
 									<div class="top-email top-box mr-30">
 										<i class="fa-solid fa-envelope"></i>
-										<span>saleonestopiso@gmail.com</span>
+										<a href="mailto:saleonestopiso@gmail.com">saleonestopiso@gmail.com</a>
 									</div>
 									<div class="top-phone top-box">
 										<i class="fa-solid fa-phone"></i>
-										<span> (+66) 63-645-2424 </span>
+										<a href="tel:+66646453632"> (+66) 63-645-2424 </a>
 									</div>
 								</div>
 							</div>

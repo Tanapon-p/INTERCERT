@@ -65,7 +65,7 @@
                             <div class="contact-home pl-30">
                                 <div class="addr-home">
                                     <div class="addr-box">
-                                        <a href="https://goo.gl/maps/your-address-link" class="addr-box-single-link">
+                                        <a href="https://www.google.com/maps/search/55%2F72+Moo+2+Tambon+Bang+bua+thong+Amphoe+Bang+bua+Thong+Nonthaburi/@13.9205825,100.4096946,15z/data=!3m1!4b1?authuser=0&entry=ttu" class="addr-box-single-link">
                                             <div class="addr-box-single">
                                                 <div class="addr-icon">
                                                     <i class="icofont-google-map"></i>
