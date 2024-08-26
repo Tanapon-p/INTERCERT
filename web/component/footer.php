@@ -86,7 +86,7 @@
 	<div class="copyright py-5">
 		<div class="container">
 			<div class="copyright-element d-flex align-items-center justify-content-between">
-				<p class="mb-0">Copyright 2024 ONE STOP ISO . All Rights Reserved</p>
+				<p class="mb-0">Copyright <?=date("Y");?> ONE STOP ISO . All Rights Reserved</p>
 				<ul class="footer-social">
 					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 					<li><a href="#"><i class="fab fa-instagram"></i></a></li>

@@ -1,5 +1,5 @@
 <?php
-require_once "./functions.php";
+    require_once "./functions.php";
 ?>
 
 <meta charset="utf-8">
@@ -19,15 +19,17 @@ require_once "./functions.php";
 <link rel="icon" type="image/png" sizes="96x96" href="<?= rootURL(); ?>favicon/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="<?= rootURL(); ?>favicon/favicon-16x16.png">
 <link rel="manifest" href="<?= rootURL(); ?>favicon/manifest.json">
-<meta name="msapplication-TileColor" content="##fcba03">
-<meta name="msapplication-TileImage" content="<?= rootURL(); ?>favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="##fcba03">
 
-<title></title>
+<meta name="msapplication-TileColor" content="#fcba03">
+<meta name="msapplication-TileImage" content="<?= rootURL(); ?>favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#fcba03">
+
+<title>ONE STOP ISO Co., LTD.</title>
 
 <!-- Theme Import -->
 <!-- Place favicon.ico in the root directory -->
-<link rel="shortcut icon" type="image/x-icon" href="<?= rootURL(); ?>assets/img/logo/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="<?= rootURL(); ?>favicon/favicon.ico">
+
 <!-- ========== Start Stylesheet ========== -->
 <link href="<?= rootURL(); ?>assets/css/bootstrap.min.css" rel="stylesheet" />
 <link href="<?= rootURL(); ?>assets/css/all.min.css" rel="stylesheet" />
