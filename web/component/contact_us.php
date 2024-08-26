@@ -71,7 +71,6 @@
                                     <div class="addr-box-single">
                                         <div class="addr-icon">
                                             <img src="<?= rootURL(); ?>assets/img/pictures/qr-line.jpg" alt="qr-line">
-                                            <!-- <i class="fa-brands fa-line fa-2xl"></i>ถ -->
                                         </div>
                                         <div class="addr-desc">
                                             <h5>Line@</h5>

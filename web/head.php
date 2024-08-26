@@ -27,21 +27,21 @@ require_once "./functions.php";
 
 <!-- Theme Import -->
 <!-- Place favicon.ico in the root directory -->
-<link rel="shortcut icon" type="image/x-icon" href="<?=rootURL();?>assets/img/logo/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="<?= rootURL(); ?>assets/img/logo/favicon.png">
 <!-- ========== Start Stylesheet ========== -->
-<link href="<?=rootURL();?>assets/css/bootstrap.min.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/css/all.min.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/css/animate.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/css/themify-icons.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/css/icofont.min.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/css/flaticon.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/css/bootstrap-icons.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/css/bsnav.min.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/css/preloader.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/css/magnific-popup.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/css/swiper-bundle.min.css" rel="stylesheet" />
-<link href="<?=rootURL();?>assets/style.css" rel="stylesheet">
-<link href="<?=rootURL();?>style.css" rel="stylesheet">
-<link href="<?=rootURL();?>assets/css/responsive.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/bootstrap.min.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/all.min.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/animate.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/themify-icons.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/icofont.min.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/flaticon.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/bootstrap-icons.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/bsnav.min.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/preloader.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/magnific-popup.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/css/swiper-bundle.min.css" rel="stylesheet" />
+<link href="<?= rootURL(); ?>assets/style.css" rel="stylesheet">
+<link href="<?= rootURL(); ?>style.css" rel="stylesheet">
+<link href="<?= rootURL(); ?>assets/css/responsive.css" rel="stylesheet" />
 <!-- ========== End Stylesheet ========== -->
 <!-- Theme Import -->
