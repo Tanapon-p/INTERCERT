@@ -88,10 +88,9 @@
 			<div class="copyright-element d-flex align-items-center justify-content-between">
 				<p class="mb-0">Copyright <?= date("Y"); ?> ONE STOP ISO . All Rights Reserved</p>
 				<ul class="footer-social">
-					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					<li><a href="tel:+66636452424"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="mailto:saleonestopiso@gmail.com"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="https://line.me/ti/p/yeLz6_xbpa"><i class="fab fa-youtube"></i></a></li>
 				</ul>
 			</div>
 		</div>

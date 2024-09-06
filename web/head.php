@@ -52,6 +52,7 @@ require_once "./functions.php";
 <link rel="icon" type="image/png" sizes="16x16" href="<?= rootURL(); ?>favicon/favicon-16x16.png">
 <link rel="manifest" href="<?= rootURL(); ?>favicon/manifest.json">
 
+
 <meta name="msapplication-TileColor" content="#fcba03">
 <meta name="msapplication-TileImage" content="<?= rootURL(); ?>favicon/ms-icon-144x144.png">
 <meta name="theme-color" content="#fcba03">
@@ -77,5 +78,6 @@ require_once "./functions.php";
 <link href="<?= rootURL(); ?>assets/style.css" rel="stylesheet">
 <link href="<?= rootURL(); ?>style.css" rel="stylesheet">
 <link href="<?= rootURL(); ?>assets/css/responsive.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- ========== End Stylesheet ========== -->
 <!-- Theme Import -->
